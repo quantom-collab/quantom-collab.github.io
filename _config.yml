@@ -16,7 +16,7 @@ mailchimp_input_name: "b_307862c135e4548eecf86f389_342411fb35"
 
 permalink: "/:title"
 
-
+future:true 
 # Build settings
 markdown: kramdown
 theme: minima

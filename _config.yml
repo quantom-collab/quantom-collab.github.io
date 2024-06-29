@@ -26,7 +26,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
 
-cover_image: "/quantom-collab.github.io/assets/img/bg/page-title.jpg"
+cover_image: "https://quantom-collab.github.io/quantom-collab.github.io/assets/img/bg/page-title.jpg"
 
 
 #collections

@@ -8,7 +8,7 @@
   - text: Home 3
     url: /pages/index-3
 - text: About
-  url: /pages/about
+  url: about
 - text: Blog
   url: /pages/blog
 - text: Services

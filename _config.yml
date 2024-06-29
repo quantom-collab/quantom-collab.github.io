@@ -26,7 +26,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
 
-cover_image: url("{{ site.baseurl }}/assets/img/bg/page-title.jpg")
+cover_image: "/assets/img/bg/page-title.jpg"
 
 
 #collections

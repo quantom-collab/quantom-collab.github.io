@@ -2,8 +2,8 @@ title: "QuantOm SciDAC collaboration"
 email: "icloet@anl.gov"
 description: >- # this means to ignore newlines until "baseurl:"
  Trade - Multipurpose Business & Corporate Jekyll Template Jekyll Theme For Mobile Apps Download Landing Page And Blogging.
-baseurl: "quantom-collab.io" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
+url: https://quantom-collab.github.io/quantom-collab.github.io/  # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
+baseurl: "" # the subpath of your site, e.g. /blog
 facebook_url: https://www.facebook.com/jekyll
 twitter_url: https://twitter.com/tryghost
 github_url:  https://github.com/TryGhost/Ghost
@@ -16,8 +16,7 @@ mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c13
 mailchimp_input_name: "b_307862c135e4548eecf86f389_342411fb35"
 
 
-#permalink: "/:title"
-permalink: /pages/ # Pages are simple html file
+permalink: "/:title"
 
 # Build settings
 markdown: kramdown
@@ -56,7 +55,7 @@ pagination:
 
   # The permalink structure for the paginated pages (this can be any level deep)
   #permalink: '/page/:num/' # Pages are index.html inside this folder (default)
-  #permalink: '/pages/blog/:num/' # Pages are simple html file
+  permalink: '/pages/blog/:num/' # Pages are simple html file
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
   # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)

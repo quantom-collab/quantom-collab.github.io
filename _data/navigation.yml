@@ -3,32 +3,24 @@
 - text: Home
   url: /
   submenu:
-  - text: Home 2
+  - text: Institutions
     url: /pages/index-2
-  - text: Home 3
+  - text: Sponsers
     url: /pages/index-3
 - text: About
   url: /pages/about
-- text: Blog
+- text: Team
   url: /pages/blog
-- text: Services
-  url: /pages/services
-- text: Pages
+- text: Research
   url: /
   submenu:
-  - text: Services
+  - text: Publications
     url: /pages/services
-  - text: Service Details
+  - text: Movies
     url: /pages/services-details
-  - text: Portfolio
+  - text: Presentations
     url: /pages/portfolio   
-  - text: Portfolio Details
+  - text: Others
     url: /pages/portfolio-details 
-  - text: About Us
-    url: /pages/about
-  - text: Contact
-    url: /pages/contact
-  - text: 404
-    url: /pages/404
 - text: Contact
   url: /pages/contact

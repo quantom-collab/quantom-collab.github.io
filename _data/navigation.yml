@@ -2,11 +2,11 @@
 
 - text: Organizations
   url: /pages/Institutions
-  #submenu:
-  #- text: Institutions
-  #  url: /pages/Institutions
-  #- text: Sponsers
-  #  url: /pages/
+  submenu:
+  - text: Institutions
+    url: /pages/Institutions
+  - text: Sponsers
+    url: /pages/
 - text: About
   url: /pages/about
 - text: Team

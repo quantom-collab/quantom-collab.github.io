@@ -1,34 +1,27 @@
 #Please use the main menu items under the "text"
 
-- text: Home
-  url: /
+- text: Organizations
+  url: /pages/Institutions
   submenu:
-  - text: Home 2
-    url: /pages/index-2
-  - text: Home 3
-    url: /pages/index-3
+  - text: Institutions
+    url: /pages/Institutions
+  - text: Sponsers
+    url: /pages/
 - text: About
   url: /pages/about
-- text: Blog
-  url: /pages/blog
-- text: Services
-  url: /pages/services
-- text: Pages
-  url: /
-  submenu:
-  - text: Services
-    url: /pages/services
-  - text: Service Details
-    url: /pages/services-details
-  - text: Portfolio
-    url: /pages/portfolio   
-  - text: Portfolio Details
-    url: /pages/portfolio-details 
-  - text: About Us
-    url: /pages/about
-  - text: Contact
-    url: /pages/contact
-  - text: 404
-    url: /pages/404
+- text: Team
+  url: /pages/team
+- text: Visualizations
+  url: /pages/gallery
+- text: Publications
+  url: /pages/publications
+  
+  #submenu:
+  #- text: Publications
+  #  url: /pages/publications
+  #- text: Movies
+  #  url: /pages/exastar
+  #- text: Presentations
+  #  url: /pages/portfolio   
 - text: Contact
   url: /pages/contact

@@ -11,7 +11,7 @@
                 "
             >
                 <!-- text that replaces the logo image -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10 text-left">
+                <div class="col-xl-4 col-lg-4 col-md-7 col-sm-9 col-3 text-left">
                     <ul>
                         <li>
                             <a href="{{ site.url }}">
@@ -29,14 +29,14 @@
                 </div>
 
                 <!-- menu items -->
-                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                <div class="col-xl-6 col-lg-7 d-none d-lg-block text-right">
                     <div class="main-menu">
                         {% include navigation.html %}
                     </div>
                 </div>
 
                 <div
-                    class="col-2"
+                    class="col-lg-1 col-md-4 col-sm-4 col-4"
                     style="
                         display: flex;
                         align-items: center;
@@ -46,10 +46,7 @@
                 >
 
                     <!-- a magnifying glass icon that opens a search modal -->
-                    <div
-                        class="d-none d-sm-block menu-icon"
-                        style="min-width: 40%;"
-                    >
+                    <div class="menu-icon" style="min-width: 25px;">
                         <i
                             class="icofont-search-1"
                             data-toggle="modal"
@@ -83,3 +80,12 @@
         </div>
     </div>
 </div>
+
+<!-- hide/show text based on window width -->
+<style>
+    @media (max-width: 604px) {
+        .header-subtitle {
+            display: none;
+        }
+    }
+</style>

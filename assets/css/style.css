@@ -765,8 +765,8 @@ label {
 }
 
 .slider-content h1 {
-    font-size: 72px;
-    font-weight: 800;
+    font-size: 64px;
+    font-weight: 600;
     color: #fff;
     line-height: 1;
     margin-bottom: 20px;
@@ -774,6 +774,14 @@ label {
 
 .slider-content h1 span {
     color: #ff5e14;
+}
+
+.slider-content h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 20px;
 }
 
 .slider-content p {

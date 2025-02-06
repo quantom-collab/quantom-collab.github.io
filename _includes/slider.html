@@ -8,13 +8,9 @@
 >
     <div class="slider-active">
         <div
-            class="single-slider slider-bg d-flex align-items-center"
+            class="landing-slide single-slider slider-bg d-flex align-items-center"
             style="
                 background-image:url({{site.baseurl}}/assets/img/slider/slider1.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
-                height: 500px;
             "
         >
             <div class="container">
@@ -25,11 +21,16 @@
                                 data-animation="fadeInDown"
                                 data-delay=".2s"
                             >
-                                <span>QuantOm</span>:
-                                <br>
-                                <u>QUA</u>ntum chromodynamics <u>N</u>uclear
-                                <u>TOM</u>ography
+                                <span>QuantOm</span>
                             </h1>
+                            <h2
+                                data-animation="fadeInDown"
+                                data-delay=".2s"
+                            >
+                                <u>QUA</u>ntum chromodynamics
+                                <u>N</u>uclear
+                                <u>TOM</u>ography
+                            </h2>
                         </div>
                     </div>
                 </div>
@@ -37,3 +38,25 @@
         </div>
     </div>
 </section>
+
+<!-- styles on the fly -->
+<style>
+.landing-slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .landing-slide {
+        height: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .landing-slide {
+        height: 250px;
+    }
+}
+</style>

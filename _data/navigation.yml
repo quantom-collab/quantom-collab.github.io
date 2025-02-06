@@ -1,27 +1,16 @@
 #Please use the main menu items under the "text"
 
-- text: Organizations
-  url: /pages/Institutions
-  submenu:
-  - text: Institutions
-    url: /pages/Institutions
-  - text: Sponsers
-    url: /pages/
 - text: About
   url: /pages/about
-- text: Team
-  url: /pages/team
-- text: Visualizations
-  url: /pages/gallery
+- text: Science
+  url: /pages/science
+- text: People
+  url: /pages/people
+- text: News
+  url: /pages/news
 - text: Publications
   url: /pages/publications
-  
-  #submenu:
-  #- text: Publications
-  #  url: /pages/publications
-  #- text: Movies
-  #  url: /pages/exastar
-  #- text: Presentations
-  #  url: /pages/portfolio   
+- text: Resources
+  url: /pages/resources
 - text: Contact
   url: /pages/contact

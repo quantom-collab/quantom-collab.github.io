@@ -1,7 +1,6 @@
 ---
 layout: page
-title: TEAM
-subtitle:  
+title: People
 ---
 # Project Leads 
 

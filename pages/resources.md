@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact Us
+title: Resources
 ---
 
 Sorry, this page is under construction.

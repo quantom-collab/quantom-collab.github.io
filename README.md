@@ -59,6 +59,8 @@ These are notes about navigation of this site and where is what.
 * The pages being pointed to by the navigation are located in the folder
   `pages`. Each one corresponds to a file with `.md` extension.
 
+* `assets/img/favicon.png`: the small icon displayed in the browser tab
+
 * At the moment I have chosen to use the layout `page` but there are several
   other layouts that in the folder `_layout` that can be explored.
 

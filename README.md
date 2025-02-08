@@ -44,7 +44,7 @@ environment specifically viewing the website locally:
    ```
 
 6. Open the local website in a browser at
-   `http://127.0.0.1:4000/quantom-collab.github.io/`
+   `http://127.0.0.1:4000/`
 
 Next time you want to view the website locally, you only need to do steps 2, 3, 5,
 and 6.

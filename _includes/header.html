@@ -1,91 +1,112 @@
 <header>
-    <div id="sticky-header" class="menu-area">
-        <div class="container" style="max-width: 1500px !important;">
+  <!-- control the width -->
+  <div class="container">
 
-            <div
-                class="row align-items-center"
-                style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                "
-            >
-                <!-- text that replaces the logo image -->
-                <div class="col-xl-5 col-lg-4 col-md-7 col-sm-9 col-3 text-left">
-                    <ul>
-                        <li>
-                            <a href="{{ site.url }}">
-                                <span class="header-title">
-                                    QuantOm
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <span class="header-subtitle">
-                                Quantum Chromodynamics Nuclear Tomography
-                            </span>
-                        </li>
-                    </ul>
-                </div>
+  <!-- navigation bar -->
+  <nav id="header" class="navbar navbar-expand-lg bg-white mt-3 p-1">
 
-                <!-- menu items -->
-                <div class="col-xl-6 col-lg-7 d-none d-lg-block text-right">
-                    <div class="main-menu">
-                        {% include navigation.html %}
-                    </div>
-                </div>
+    <!-- text serving as the logo -->
+    <div class="d-flex flex-column">
 
-                <div
-                    class="col-lg-1 col-md-4 col-sm-4 col-4"
-                    style="
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        flex: 0 0 5%;
-                    "
-                >
+      <a
+        class="
+          navbar-brand m-0 p-0 h1 fs-4 fw-bolder
+          d-none d-sm-inline d-lg-none d-xl-inline
+        "
+        href="{{ site.url }}"
+      >
+        QuantOm Collaboration
+      </a>
 
-                    <!-- a magnifying glass icon that opens a search modal -->
-                    <div class="menu-icon" style="min-width: 25px;">
-                        <i
-                            class="icofont-search-1"
-                            data-toggle="modal"
-                            data-target="#search-modal"
-                        ></i>
-                    </div>
+      <a
+        class="
+          navbar-brand m-0 p-0 h1 fs-4 fw-bolder
+          d-inline d-sm-none d-md-none d-lg-inline d-xl-none
+        "
+        href="{{ site.url }}"
+      >
+        QuantOm<br>Collaboration
+      </a>
 
-                    <!-- menu trigger that only appears in small windows -->
-                    <!-- a javascript controls visibility of mobile-menu -->
-                    <div class="mobile-menu"></div>
-                </div>
-            </div>
+      <span
+        class="
+          fs-7 text-body-secondary text-wrap mt-0 pt-0
+          d-none d-sm-inline d-md-inline d-lg-none d-xl-inline
+        "
+      >
+        Quantum Chromodynamics Nuclear Tomography
+      </span>
 
-            <div class="offcanvas-menu">
-                {% include offcanvas_menu.html %}
-            </div>
-            <div class="offcanvas-overly"></div>
-        </div>
     </div>
+
+    <!-- navigation links -->
+    <div id="navbarNav"
+      class="collapse navbar-collapse"
+    >
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        {% include navigation.html %}
+      </ul>
+    </div>
+
+    <!-- menu button (hidden for big screens) and search button -->
+    <div class="d-flex">
+
+      <button
+        type="button" class="navbar-toggler"
+        style="
+          --bs-navbar-toggler-border-color: transparent;
+          --bs-navbar-toggler-border-radius: 0;
+          --bs-navbar-toggler-focus-width: 0;
+        "
+        data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <button type="button" class="btn btn-white" data-bs-toggle="modal"
+        data-bs-target="#search-modal"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+          fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"
+        >
+          <path
+            d="
+                M11.742 10.344a6.5 6.5 0 1 0-1.397
+                1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0
+                1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12
+                6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0
+            "
+          />
+        </svg>
+      </button>
+    </div>
+  </nav>
+  </div>
 </header>
 
 <!-- Modal Search -->
-<div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-            <form>
-                <input type="text" id="search-input" placeholder="Search blog posts..">
-                <button><i class="fa fa-search"></i></button>
-            </form>
-            <ul id="results-container"></ul>
-        </div>
+<div 
+  class="modal fade" id="search-modal" tabindex="-1"
+  aria-label="Search Box" aria-details="Search Dialog" aria-hidden="true"
+>
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button
+          type="button" class="btn-close" data-bs-dismiss="modal"
+          aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="input-group mb-3">
+          <input
+            type="text"class="form-control" placeholder="Search"
+            aria-label="Search"
+          >
+          <span class="input-group-text" id="search-confirm">Search</span>
+        </form>
+        <ul id="results-container"></ul>
+      </div>
     </div>
+  </div>
 </div>
-
-<!-- hide/show text based on window width -->
-<style>
-    @media (max-width: 604px) {
-        .header-subtitle {
-            display: none;
-        }
-    }
-</style>

@@ -1,0 +1,15 @@
+// extra font sizes on top of what Bootstrap already provides
+$extra-display-font-sizes: (
+  7: 2rem,
+  8: 1.5rem,
+  9: 1rem,
+  10: 0.5rem,
+);
+
+$extra-font-sizes: (
+  7: 0.825rem
+);
+
+// merge the extra font sizes with the existing font sizes
+$font-sizes: map-merge($font-sizes, $extra-font-sizes);
+$display-font-sizes: map-merge($display-font-sizes, $extra-display-font-sizes);

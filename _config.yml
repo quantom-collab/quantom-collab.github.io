@@ -1,8 +1,9 @@
 # =============================================================================
 # NOTE:
-#   * Plugins are installed by the `github-pages` gem. Do not add any plugins
-#     here, they may not work on GitHub Pages. See
+#   * Plugins are installed by the `github-pages` gem. So they are not
+#     explicitly listed in Gemfile. See
 #     https://pages.github.com/versions/ for available plugins.
+#     Here in _config.yml, we still need to list the plugins we want to use.
 # =============================================================================
 
 # basic infor for GitHub pages

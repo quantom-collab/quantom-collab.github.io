@@ -99,19 +99,3 @@
   --bs-btn-bg: #ffffff !important;  // override the parent's
   --bs-btn-border-color: #ffffff !important;  // override the parent's
 }
-
-.slider-bg {
-	height: 810px;
-	background-size: cover;
-	background-position: center center;
-	position: relative;
-}
-
-.slider-bg::before {
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 100%;
-	background: #000;
-	opacity: .7;
-}

@@ -19,9 +19,7 @@
             </span>
 
             <span class="fs-6 fst-italic" style="font-family: serif">
-              {{ news.content | markdownify
-                | remove: "<p>" | remove: "</p>" | truncatewords: 15
-              }}
+              {{ news.content | markdownify | remove: "<p>" | remove: "</p>" | truncatewords: 15 }}
             </span>
           </a>
         </div>

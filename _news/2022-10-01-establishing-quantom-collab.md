@@ -1,14 +1,6 @@
 ---
-title: The Establishment of QuantOm Collaboration
-description: Anouncement of the establishment of QuantOm Collaboration
-image:
-authot: QuantOm
-locale: en_US
-tags: news
-category: news
+title: The Start of QuantOm Collaboration
 ---
-
-# The Establishment of QuantOm Collaboration
 
 Lorem ipsum odor amet, consectetuer adipiscing elit.
 Mus fermentum volutpat viverra curabitur elementum donec purus orci.

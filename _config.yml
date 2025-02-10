@@ -20,6 +20,28 @@ author: QuantOm
 logo: /assets/img/logo_quantom_collab.png
 locale: en_US
 
+# grouping different types of posts
+collections:
+  news:
+    output: true
+  pages:
+    output: true
+
+# default key-value pairs in the front matter for each category
+defaults:
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "post"
+      author: "QuantOm"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+
 # SCSS compiler config
 sass:
   style: compressed

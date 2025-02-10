@@ -1,9 +1,33 @@
 <section id="news" aria-labelledby="news-heading">
-    <div class="container p-3 my-3">
+  <div class="container w-75 p-3 my-3">
 
-      <h2 id="news-heading" class="w-100 text-center">
-        News
-      </h2>
-      
+    <h2 id="news-heading" class="w-100 text-center">
+      News
+    </h2>
+
+    <div class="d-flex flex-column align-items-start align-content-center[">
+      {% assign collections = site.news | sort: "date" | reverse %}
+      {% for news in collections limit:5 %}
+        <div class="row w-100 text-truncate">
+          <a
+            href="{{ news.url }}"
+            class="text-decoration-none text-dark"
+          >
+            <span class="fs-5 fw-medium">
+              {{ news.date | date: "%Y-%m-%d" }}
+              {{ news.title }}
+            </span>
+
+            <span class="fs-6 fst-italic" style="font-family: serif">
+              {{ news.content | markdownify
+                | remove: "<p>" | remove: "</p>" | truncatewords: 15
+              }}
+            </span>
+          </a>
+        </div>
+      {% endfor %}
     </div>
+
+    <a href="{{ site.url }}/pages/news">more news...</a>
+  </div>
 </section>

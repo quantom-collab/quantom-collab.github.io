@@ -1,8 +1,6 @@
 ---
-author: QuantOm
+title: QuantOm Collaboration Meeting 2024
 ---
-
-# SciDAC QuantOm Collaboration Meeting
 
 https://indico.jlab.org/event/894/overview
 

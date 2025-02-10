@@ -1,6 +1,5 @@
 ---
-layout: page
-title: News
+title: Science
 ---
 
 Sorry, this page is under construction.

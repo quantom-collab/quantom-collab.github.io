@@ -1,8 +1,6 @@
 ---
-author: QuantOm
+title: SciDAC PI Meeting 2024
 ---
-
-# SciDAC PI Meeting 2024
 
 Lorem ipsum odor amet, consectetuer adipiscing elit.
 Diam nisl taciti taciti himenaeos fringilla dignissim ante.

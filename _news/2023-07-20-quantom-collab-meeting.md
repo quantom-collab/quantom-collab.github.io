@@ -1,8 +1,6 @@
 ---
-author: QuantOm
+title: QuantOm Collaboration Meeting 2023
 ---
-
-# QuantOm Collab Meeting 20-21 July 2023
 
 https://indico.phy.anl.gov/event/26/
 

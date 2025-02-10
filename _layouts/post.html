@@ -34,17 +34,16 @@ layout: default
       "
     >
 
-        <h2 id="{{ page-title }}-heading">
-          {{ page.title | capitalize }}
-        </h2>
-
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
               <a href="{{ site.url }}">Home</a>
             </li>
+            <li class="breadcrumb-item">
+              <a href="{{ site.url }}/pages/news">News</a>
+            </li>
             <li class="breadcrumb-item active" aria-current="page">
-              {{ page.title | capitalize }}
+              <a href="{{ page.site }}">{{ page.title }}</a>
             </li>
           </ol>
         </nav>
@@ -57,7 +56,10 @@ layout: default
 <main id="{{ page.title }}" aria-label="{{ page.title }}">
   <div class="container p-3 my-3">
 
-      {{ content }}
+    <h2>{{ page.title }}</h2>
+    <p class="fs-5"> {{ page.date | date: "%B %d, %Y" }} </p>
+
+    {{ content }}
 
   </div>
 </main>

@@ -1,8 +1,6 @@
 ---
-author: QuantOm
+title: SciDAC PI Meeting 2023
 ---
-
-# SciDAC PI Meeting 2023
 
 Lorem ipsum odor amet, consectetuer adipiscing elit.
 Accumsan vehicula nulla penatibus vivamus parturient tempor per volutpat nam.

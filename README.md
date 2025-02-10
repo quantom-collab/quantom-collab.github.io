@@ -61,9 +61,9 @@ These are notes about navigation of this site and where is what.
 
 * `assets/img/favicon.png`: the small icon displayed in the browser tab
 
-* `assets/img/band_qcd_1.jpg`: the banner image on the landing page
+* `assets/img/banner_qcd_1.jpg`: the banner image on the landing page
 
-* `assets/img/band_page_1.jpg`: the banner image on the other pages
+* `assets/img/banner_page_1.jpg`: the banner image on the other pages
 
 * `assets/img/logo_quantom_collab.png`: the logo of QuantOm; currently unused
 

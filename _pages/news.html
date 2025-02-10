@@ -6,7 +6,6 @@ title: News
   {% assign collections = site.news | sort: "date" | reverse %}
   {% for news in collections %}
     <li>
-
       {{ news.date | date: "%Y-%m-%d" }} | 
       <span class="fs-4"><a href="{{ news.url }}">{{ news.title }}</a></span>
       {{ news.excerpt | markdownify | remove: "<h1>" | remove: "</h1>" | truncatewords: 15 }}

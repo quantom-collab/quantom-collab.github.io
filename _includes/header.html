@@ -85,26 +85,18 @@
 </header>
 
 <!-- Modal Search -->
-<div 
-  class="modal fade" id="search-modal" tabindex="-1"
-  aria-label="Search Box" aria-details="Search Dialog" aria-hidden="true"
->
+<div class="modal fade" id="search-modal" tabindex="-1" aria-label="Search Box" aria-details="Search Dialog"
+  aria-hidden="true">
   <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button
-          type="button" class="btn-close" data-bs-dismiss="modal"
-          aria-label="Close">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
         </button>
       </div>
       <div class="modal-body">
-        <form class="input-group mb-3">
-          <input
-            type="text"class="form-control" placeholder="Search"
-            aria-label="Search"
-          >
-          <span class="input-group-text" id="search-confirm">Search</span>
-        </form>
+        <div class="input-group mb-3">
+          <input type="text" id="search-input" placeholder="Search" aria-label="Search" onclick="">
+        </div>
         <ul id="results-container"></ul>
       </div>
     </div>

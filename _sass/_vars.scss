@@ -1,1 +1,24 @@
 // only SCSS variables; standard CSS variables should not be here
+
+// Color overrides
+$primary:    #007700;
+$secondary:  #770077;
+$success:    #ff0000;
+$info:       #33ee33;
+$warning:    #ff0000;
+$danger:     #ff0000;
+$light:      #ddffdd;
+$dark:       #003300;
+
+// Link overrides
+$link-decoration:          none;
+$link-hover-decoration:    underline;
+$link-color:               $primary;
+$link-hover-color:         $secondary;
+$navbar-light-color:       $primary;
+$navbar-light-hover-color: $secondary;
+
+$enable-gradients: true;
+$enable-shadows:   true;
+
+$gradient: linear-gradient(170deg, rgba($primary, 0.26), rgba($secondary, 0.11));

@@ -8,21 +8,15 @@
     <div class="d-flex flex-column align-items-start align-content-center[">
       {% assign collections = site.news | sort: "date" | reverse %}
       {% for news in collections limit:5 %}
-        <div class="row w-100 text-truncate">
-          <a
-            href="{{ news.url }}"
-            class="text-decoration-none text-dark"
-          >
-            <span class="fs-5 fw-medium">
-              {{ news.date | date: "%Y-%m-%d" }}
-              {{ news.title }}
-            </span>
-
-            <span class="fs-6 fst-italic" style="font-family: serif">
-              {{ news.content | markdownify | remove: "<p>" | remove: "</p>" | truncatewords: 15 }}
-            </span>
-          </a>
-        </div>
+      <div class="row w-100 text-truncate">
+        <span class="fs-5 fw-medium">
+          {{ news.date | date: "%Y-%m-%d" }}
+          <a href="{{ news.url }}">{{ news.title }}</a>
+        </span>
+        <span class="fs-6 fst-italic" style="font-family: serif">
+          {{ news.content | markdownify | remove: "<p>" | remove: "</p>" | truncatewords: 15 }}
+        </span>
+      </div>
       {% endfor %}
     </div>
 

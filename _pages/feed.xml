@@ -1,0 +1,29 @@
+---
+layout: none
+permalink: /feed.xml
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}</link>
+    <description>{{ site.description }}</description>
+
+    {% assign all_posts = site.posts | concat: site.pages | concat: site.news %}
+    {% assign sorted_posts = all_posts | sort: "date" | reverse %}
+
+    {% for post in sorted_posts limit:20 %}
+      {% if post.id == "/feed" or post.id == "/404" %}
+        {% continue %}
+      {% endif %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <guid>{{ site.url }}{{ post.url }}</guid>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <description><![CDATA[{{ post.content | strip_html | truncatewords: 50 }}]]></description>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

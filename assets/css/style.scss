@@ -80,7 +80,6 @@
 // overwrite Bootstrap's default standard CSS variables
 :root {
   --bs-body-font-family: "Poppins", sans-serif;
-  --bs-body-font-size: 1.25rem;
 }
 
 .breadcrumb {
@@ -93,9 +92,24 @@
   text-decoration: none;
 }
 
-// our own code from here on
+// our own code from here on (can be either SCSS or CSS)
 .btn-white {
   @extend .btn-light;
   --bs-btn-bg: #ffffff !important;  // override the parent's
   --bs-btn-border-color: #ffffff !important;  // override the parent's
+}
+
+.landing-banner-title {
+  @extend .text-center;
+  font-size: clamp(1px, calc(0.75rem + 1.75vw), 46px);
+  color: $orange;
+  font-weight: 600;
+}
+
+.landing-banner-text {
+  @extend .text-light;
+  @extend .text-center;
+  @extend .d-none;
+  @extend .d-sm-block;
+  font-size: clamp(1px, calc(0.75rem + 1.3vw), 37px);
 }

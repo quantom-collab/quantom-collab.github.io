@@ -101,7 +101,7 @@
 
 .landing-banner-title {
   @extend .text-center;
-  font-size: calc(0.75rem + 1.75vw);
+  font-size: clamp(1px, calc(0.75rem + 1.75vw), 46px);
   color: $orange;
   font-weight: 600;
 }
@@ -111,5 +111,5 @@
   @extend .text-center;
   @extend .d-none;
   @extend .d-sm-block;
-  font-size: calc(0.75rem + 1.3vw);
+  font-size: clamp(1px, calc(0.75rem + 1.3vw), 37px);
 }

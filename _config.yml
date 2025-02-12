@@ -1,8 +1,9 @@
 # =============================================================================
 # NOTE:
-#   * Plugins are managed by the `github-pages` gem. Do not add any plugins
-#     here, they may not work on GitHub Pages. See
+#   * Plugins are installed by the `github-pages` gem. So they are not
+#     explicitly listed in Gemfile. See
 #     https://pages.github.com/versions/ for available plugins.
+#     Here in _config.yml, we still need to list the plugins we want to use.
 # =============================================================================
 
 # basic infor for GitHub pages
@@ -11,6 +12,11 @@ baseurl: "" # intentionally left blank
 
 # markdown renderer
 markdown: kramdown
+
+# jekyll plugins that we want to use
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # jekyll-seo-tag condfigs and site meta
 title: QuantOm SciDAC Collaboration
@@ -22,8 +28,10 @@ locale: en_US
 
 # grouping different types of posts
 collections:
+  # folder _news
   news:
     output: true
+  # folder _pages
   pages:
     output: true
 

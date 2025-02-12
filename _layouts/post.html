@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<!-- band image and page title -->
+<!-- banner image and page title -->
 <div class="container my-2">
   <div
     class="card"
@@ -17,7 +17,7 @@ layout: default
     <!-- NOTE: the max-height can be removed once we have an image -->
     <img
       class="card-img"
-      src="{{ site.baseurl }}/assets/img/band_page_1.jpg"
+      src="{{ site.baseurl }}/assets/img/banner_page_1.jpg"
       alt="{{ page.title }}-image"
       style="max-height: 150px; background-size: cover;"
     >
@@ -43,7 +43,7 @@ layout: default
               <a href="{{ site.url }}/pages/news">News</a>
             </li>
             <li class="breadcrumb-item active" aria-current="page">
-              <a href="{{ page.site }}">{{ page.title }}</a>
+              {{ page.title }}
             </li>
           </ol>
         </nav>

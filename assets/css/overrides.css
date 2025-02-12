@@ -1,8 +1,8 @@
 .breadcrumb a:hover {
   text-decoration: underline;
-  color:           #fac4fa;
+  color:           #c4dbfa;
 }
 
 div.my-3 {
-  background: linear-gradient(45deg, rgba(255, 255, 255, 0), rgba(222, 255, 222, 108), rgba(255, 255, 255, 0));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(238, 246, 255, 17), rgba(255, 255, 255, 0));
 }

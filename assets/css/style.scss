@@ -57,29 +57,12 @@
 @import "bootstrap/helpers";
 @import "bootstrap/utilities/api";
 
-// font: Poppins
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap");
+// font: Montserrat
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 // overwrite Bootstrap's default standard CSS variables
 :root {
-  --bs-body-font-family: "Poppins", sans-serif;
+  --bs-body-font-family: "Montserrat", sans-serif;
 }
 
 .breadcrumb {
@@ -112,4 +95,40 @@
   @extend .d-none;
   @extend .d-sm-block;
   font-size: clamp(1px, calc(0.75rem + 1.3vw), 37px);
+}
+
+.profile-card {
+  @extend .card;
+  @extend .h-100;
+  @extend .bg-white;
+  @extend .text-dark;
+  @extend .p-0;
+  @extend .m-0;
+  --bs-card-border-width: 0;
+  --bs-card-border-radius: 0;
+  --bs-card-inner-border-radius: 0;
+  border-radius: 0;
+}
+
+.profile-name {
+  @extend .card-title;
+  @extend .text-dark;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.profile-pic {
+  @extend .card-img-top;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.profile-role {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.profile-affiliation {
+  font-size: 1rem;
 }

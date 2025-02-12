@@ -1,0 +1,107 @@
+---
+title: People
+---
+
+{% assign picpath = site.url | append: "/assets/profile/" %}
+{% assign categories = "PIs, THY, EXP, MAD, CV" | split: ", " %}
+
+{% for category in categories %}
+  {% if category == "PIs" %}
+    {% assign collection = "" | split: "," %}
+    {% assign item = site.data.profile_list | where: "Identifier", "i_cloet" | first %}
+    {% assign collection = collection | push: item %}
+    {% assign item = site.data.profile_list | where: "Identifier", "j_qiu" | first %}
+    {% assign collection = collection | push: item %}
+    {% assign item = site.data.profile_list | where: "Identifier", "w_feng" | first %}
+    {% assign collection = collection | push: item %}
+  {% else %}
+    {% assign collection = site.data.profile_list | where: "Category", category %}
+  {% endif %}
+  <section id="{{ category }}" class="my-5" aria-labelledby="{{ category }}-heading">
+
+    <h2 id="{{ category }}-heading" class="w-100 text-center">
+      {% if category == "THY" %}
+        THEORY
+      {% elsif category == "EXP" %}
+        EXPERIMENT
+      {% elsif category == "MAD" %}
+        Math and Algorithmic Development
+      {% elsif category == "CV" %}
+        COMPUTING AND VISUALIZATION
+      {% elsif category == "PIs" %}
+        LEADERSHIP
+      {% else %}
+        {{ category | upcase }}
+      {% endif %}
+    </h2>
+
+    <hr class="border border-dark border-2">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 gap-0 row-gap-1">
+
+      {% for item in collection %}
+
+        {% if item.Filename == nil %}
+          {% assign filename = picpath | append: "placeholder.png" %}
+        {% else %}
+          {% assign filename = picpath | append: item.Filename %}
+        {% endif %}
+
+        <div class="d-flex flex-row col g-0 m-0 p-1 justify-content-center">
+          <div class="profile-card" style="max-width: 330px;">
+
+            <!-- profile picture -->
+            {% if item.URL != nil %}
+              <a href="{{ item.URL }}" target="_blank" rel="noopener noreferrer">
+            {% endif %}
+              <img src="{{ filename }}" alt="Profile Picture" class="profile-pic">
+            {% if item.URL != nil %}
+              </a>
+            {% endif %}
+
+            <!-- profile information -->
+            <div class="card-body p-2">
+
+              <div class="d-flex flex-column adjust-content-start align-items-start">
+
+                <div class="d-flex flex-row adjust-content-start gap-1">
+                  <!-- name -->
+                  <div class="profile-name">{{ item.Name }}</div>
+
+                  <!-- email icon -->
+                  <a href="mailto:{{ item.Email }}">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                      fill="currentColor" class="bi bi-envelope"
+                      viewBox="0 0 16 16"
+                    >
+                      <use xlink:href="#icon-envelope"></use>
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="profile-role"> {{ item.Role }} </div>
+
+                <div class="profile-affiliation"> {{ item.Affiliation }} </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      {% endfor %}
+    </div>
+  </section>
+{% endfor %}
+
+<svg style="display: none;">
+  <symbol id="icon-envelope" viewBox="0 0 16 16" fill="currentColor">
+    <path d="
+      M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0
+      0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0
+      0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034
+      6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2
+      13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
+    />
+  </symbol>
+</svg>

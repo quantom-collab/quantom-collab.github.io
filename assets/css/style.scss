@@ -101,11 +101,8 @@
 
 .landing-banner-title {
   @extend .text-center;
-  @extend .d-none;
-  @extend .d-md-block;
   font-size: calc(0.75rem + 1.75vw);
   color: $orange;
-  width: 90%;
   font-weight: 600;
 }
 
@@ -115,5 +112,4 @@
   @extend .d-none;
   @extend .d-sm-block;
   font-size: calc(0.75rem + 1.3vw);
-  width: 90%;
 }

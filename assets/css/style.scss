@@ -75,11 +75,18 @@
   text-decoration: none;
 }
 
+.btn {
+  background-image: none;
+  --bs-btn-box-shadow: none;
+}
+
 // our own code from here on (can be either SCSS or CSS)
 .btn-white {
   @extend .btn-light;
   --bs-btn-bg: #ffffff !important;  // override the parent's
-  --bs-btn-border-color: #ffffff !important;  // override the parent's
+  --bs-btn-border-color: transparent !important;  // override the parent's
+  --bs-btn-hover-bg: #dfdfdf;
+  --bs-btn-hover-border-color: transparent;
 }
 
 .landing-banner-title {

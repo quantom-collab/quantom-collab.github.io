@@ -1,0 +1,93 @@
+# ==============================================================================
+# Published works
+# ==============================================================================
+
+published:
+  # No published works yet. Mock entry demonstrating expected data.
+  #    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #  - title  : Lorem ipsum odor amet
+  #    authors:
+  #      - C. A. Elit
+  #    eprint : 2411.01082
+  #    doi    : 10.2307/466856
+  #    journal: International Journal of Leo Magnis Vivamus
+  #    volume : 108
+  #    pages  : 9001
+  #    year   : 1776
+  #    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# ==============================================================================
+# Works being processed or reviewed
+# ==============================================================================
+
+submitted:
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : Quantum stresses in the hydrogen atom
+    authors:
+      - Adam Freese
+    journal: Physical Review D
+    status : Accepted for publication
+    eprint : 2412.09664
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : Characterization and Optimization of the Fitting of Quantum Correlation Functions
+    authors:
+      - P. Chuang
+      - N. Shah
+      - P. Barry
+      - I. Cloët
+      - E. Constantinescu
+      - N. Sato
+      - W. Feng
+    journal: Proceedings of IEEE High-Performance Extreme Computing Virtual Conference
+    status : Under review
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : Kernel methods for evolution of generalized parton distributions
+    authors:
+      - A. Freese
+      - D. Adamiak
+      - I. Cloët
+      - W. Melnitchouk
+      - J.-W. Qiu
+      - N. Sato
+      - M. Zaccheddu
+    journal: Computer Physics Communications
+    status : Under review
+    eprint : 2412.13450
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : 'Enhancing Interpretability in Generative Modeling: Statistically Disentangled Latent Spaces Guided by Generative Factors in Scientific Datasets'
+    authors:
+      - Arkaprabha Ganguli
+      - Nesar Ramachandra
+      - Julie Bessac
+      - Emil Constantinescu
+    journal: Springer Machine Learning
+    status : Under review
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : 'SAGIPS: A Scalable Asynchronous Generative Inverse Problem Solver'
+    authors:
+      - Daniel Lersch
+      - Malachi Schram
+      - Zhenyu Dai
+      - Kishansingh Rajput
+      - Xingfu Wu
+      - N. Sato
+      - J. Taylor Childers
+    journal: 'IOP Machine Learning: Science & Technology'
+    status : Under review
+    year   : 2025
+    eprint : 2407.00051
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# ==============================================================================
+# Works in preparation
+# ==============================================================================
+
+inprep:
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : Event-Level Analysis for Deep Inelastic Scattering
+    authors:
+      - Pi-Yueh Chuang
+      - Patrick Barry
+      - Ian Cloët
+      - Emil Constantinescu
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -2,4 +2,78 @@
 title: Publications
 ---
 
-Sorry, this page is under construction.
+<!-- Published works -->
+
+<span class="fs-2">Published works</span>
+
+<ul class="list-group">
+{% for paper in site.data.publications.published %}
+  <li class="list-group-item">
+    <span class="fs-5">
+      {% include authorlist.html authors=paper.authors %}
+    </span>
+    <br/>
+    <span class="fs-5">
+    <i>{{ paper.title }}</i>
+    </span>
+    <br/>
+    <span class="fs-5">
+    <a target="_blank" href="https://doi.org/{{ paper.doi }}">
+      {{ paper.journal }} {{ paper.volume }} ({{ paper.year }}) {{ paper.pages }}
+    </a>
+    </span>
+  </li>
+{% endfor %}
+</ul>
+
+<br/>
+
+<!-- Submitted, but not published (under review, in process) -->
+
+<span class="fs-2">Submitted works</span>
+
+<ul class="list-group">
+{% for paper in site.data.publications.submitted %}
+  <li class="list-group-item">
+    <span class="fs-5">
+      {% include authorlist.html authors=paper.authors %}
+    </span>
+    <br/>
+    <span class="fs-5">
+    <i>{{ paper.title }}</i>
+    </span>
+    <br/>
+    <span class="fs-6">
+      {{ paper.status }} at {{ paper.journal }}
+    </span>
+    {% if paper.eprint %}
+    <br/>
+    <span class="fs-6">
+    <a target="_blank" href="https://arxiv.org/abs/{{ paper.eprint }}">
+    arXiv:{{ paper.eprint }}
+    </a>
+    </span>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+<br/>
+
+<!-- In preparation -->
+
+<span class="fs-2">In preparation</span>
+
+<ul class="list-group">
+{% for paper in site.data.publications.inprep %}
+  <li class="list-group-item">
+    <span class="fs-5">
+      {% include authorlist.html authors=paper.authors %}
+    </span>
+    <br/>
+    <span class="fs-5">
+    <i>{{ paper.title }}</i>
+    </span>
+  </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,27 @@
+{% assign etallim = 5 %}
+
+{% assign numauthors = include.authors.size %}
+{% if numauthors == 1 %}
+  {% for author in include.authors %}
+    {{ author }}
+  {% endfor %}
+{% elsif numauthors <= etallim %}
+  {% assign allmin2 = numauthors | minus: 2 %}
+  {% assign allmin1 = numauthors | minus: 1 %}
+  {% for author in include.authors limit:allmin2 %}
+    {{ author }},
+  {% endfor %}
+  {% for author in include.authors offset:allmin2 limit:1 %}
+    {{ author }}
+  {% endfor %}
+  and
+  {% for author in include.authors offset:allmin1 limit:1 %}
+    {{ author }}
+  {% endfor %}
+{% else %}
+  {% assign allmin1 = etallim | minus: 1 %}
+  {% for author in include.authors limit:allmin1 %}
+    {{ author }},
+  {% endfor %}
+  <i>et al.</i>
+{% endif %}

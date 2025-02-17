@@ -1,40 +1,24 @@
 <footer>
-  <div class="container">
-    <a target="_blank" href="https://www.energy.gov/">
-      <img class="img-fluid" width="11%" src="{{ site.baseurl }}/assets/img/doe_seal.png"/>
+  <div class="container d-flex flex-wrap text-center align-items-center justify-content-center px-5">
+    <a target="_blank" href="https://www.energy.gov/" class="col-6 col-sm-3">
+      <img class="img-fluid" src="{{ site.baseurl }}/assets/img/doe_seal.png"/ style="max-width: 50%">
     </a>
-    <a target="_blank" href="https://www.anl.gov/">
-      <img class="img-fluid" width="28%" src="{{ site.baseurl }}/assets/img/argonne_logo.png"/>
+    <a target="_blank" href="https://www.anl.gov/" class="col-6 col-sm-3">
+      <img class="img-fluid" src="{{ site.baseurl }}/assets/img/argonne_logo.png"/>
     </a>
-    <a target="_blank" href="https://www.jlab.org/">
-      <img class="img-fluid" width="28%" src="{{ site.baseurl }}/assets/img/jlab_logo.png"/>
+    <a target="_blank" href="https://www.jlab.org/" class="col-6 col-sm-3">
+      <img class="img-fluid" src="{{ site.baseurl }}/assets/img/jlab_logo.png"/>
     </a>
-    <a target="_blank" href="https://www.vt.edu/">
-      <img class="img-fluid" width="28%" src="{{ site.baseurl }}/assets/img/vt_logo.png"/>
+    <a target="_blank" href="https://www.vt.edu/" class="col-6 col-sm-3">
+      <img class="img-fluid" src="{{ site.baseurl }}/assets/img/vt_logo.png"/>
     </a>
   </div>
-  <div class="container d-flex flex-row bg-dark text-light p-3">
-    <div
-      class="fs-6 p-3 flex-grow-1 text-start"
-    >
-      Copyright &copy; 2025,
-      <a
-        href="{{ site.baseurl }}"
-        class="link-light"
-      >
-        QuantOm Collaboration
-      </a>
-      All Right Reserved
-    </div>
-    <div class="fs-6 py-3 px-1 text-start">
+  <div class="container d-flex flex-column bg-dark text-light text-center justify-content-center align-items-center p-1">
+    <div class="fs-6 my-2 text-start text-center">
       <a class="link-light fw-medium" href="{{ site.url }}">
         HOME
       </a>
-    </div>
-    <div class="fs-6 py-3 px-1 text-start">
-      |
-    </div>
-    <div class="fs-6 py-3 px-1 text-start">
+      <span class="mx-1"> | </span>
       <a class="icon-link icon-link-hover link-light fw-medium" href="mailto:icloet@anl.gov">
         CONTACT US
         <svg
@@ -52,6 +36,18 @@
         </svg>
         <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg>
       </a>
+    </div>
+    <div
+      class="fs-6 my-2 text-start text-center"
+    >
+      Copyright &copy; 2025,
+      <a
+        href="{{ site.baseurl }}"
+        class="link-light"
+      >
+        QuantOm Collaboration
+      </a>
+      All Right Reserved
     </div>
   </div>
 </footer>

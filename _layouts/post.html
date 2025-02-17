@@ -54,12 +54,14 @@ layout: default
 
 <!-- main page content -->
 <main id="{{ page.title }}" aria-label="{{ page.title }}">
-  <div class="container p-3 my-3">
+  <div class="container">
 
-    <h2>{{ page.title }}</h2>
-    <p class="fs-5"> {{ page.date | date: "%B %d, %Y" }} </p>
+    <div class="post-date"> {{ page.date | date: "%B %d, %Y" }} </div>
+    <div class="post-title">{{ page.title }}</div>
 
-    {{ content }}
+    <div class="post-body">
+      {{ content }}
+    </div>
 
   </div>
 </main>

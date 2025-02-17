@@ -139,3 +139,74 @@
 .profile-affiliation {
   font-size: 1rem;
 }
+
+.news-card {
+  @extend .card;
+  @extend .h-100;
+  @extend .bg-white;
+  @extend .text-dark;
+  @extend .px-4;
+  @extend .py-1;
+  @extend .m-0;
+  @extend .w-100;
+  --bs-card-border-width: 0;
+  --bs-card-border-radius: 0;
+  --bs-card-inner-border-radius: 0;
+  border-radius: 0;
+}
+
+.news-card-date {
+  @extend .card-header;
+  @extend .bg-white;
+  @extend .text-secondary;
+  @extend .fw-medium;
+  @extend .m-0;
+  @extend .mb-1;
+  @extend .p-0;
+}
+
+.news-card-title {
+  @extend .card-title;
+  @extend .bg-white;
+  @extend .text-primary;
+  @extend .m-0;
+  @extend .mt-1;
+  @extend .p-0;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.news-card-excerpt {
+  @extend .m-0;
+  @extend .p-0;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.post-date {
+  @extend .bg-white;
+  @extend .text-secondary;
+  @extend .fw-medium;
+  @extend .mx-3;
+  @extend .mt-3;
+  @extend .mb-1;
+  @extend .p-0;
+}
+
+.post-title {
+  @extend .bg-white;
+  @extend .text-primary;
+  @extend .mx-3;
+  @extend .mt-1;
+  @extend .mb-3;
+  @extend .p-0;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.post-body {
+  @extend .m-3;
+  @extend .p-0;
+  font-size: 1rem;
+  font-weight: normal;
+}

@@ -1,0 +1,27 @@
+---
+layout: none
+permalink: /search.json
+hidden: true
+---
+[
+  {%- for collection in site.collections -%}
+    {%- for doc in collection.docs -%}
+      {%- unless doc.hidden -%}
+        {%- unless forloop.first and forloop.parentloop.first -%},{%- endunless %}
+        {% assign content = doc.content | strip_html | strip_newlines  -%}
+        {% assign content = content | remove: '"' | remove: "," | remove: "." -%}
+        {% assign content = content | remove: '/' -%}
+        {% assign content = content | split: " " -%}
+        {% assign content = content | uniq | join: " " -%}
+        {
+          "title"    : "{{ doc.title | escape }}",
+          "category" : "{{ doc.category }}",
+          "tags"     : "{{ doc.tags | join: ', ' }}",
+          "url"      : "{{ site.url }}{{ doc.url }}",
+          "date"     : "{{ doc.date }}",
+          "content"  : "{{ content }}"
+        }
+      {%- endunless -%}
+    {%- endfor %}
+  {%- endfor %}
+]

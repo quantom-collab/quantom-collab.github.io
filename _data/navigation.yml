@@ -7,24 +7,24 @@
 # Example:
 # --------
 # - text: Item A
-#   utl: /pages/item-a.html
+#   url: /item-a.html
 # - text: Item-B
-#   url: /pages/item-b.html
+#   url: /posts/item-b.html
 #   submenu:
 #     - text: Item-B-1
-#       url: /pages/item-b-1.html
+#       url: /news/item-b-1.html
 #     - text: Item-B-2
-#       url: /pages/item-b-2.html
+#       url: /..../item-b-2.html
 
 - text: About
-  url: /pages/about
+  url: /about
 - text: News
-  url: /pages/news
+  url: /news
 - text: Science
-  url: /pages/science
+  url: /science
 - text: People
-  url: /pages/people
+  url: /people
 - text: Publications
-  url: /pages/publications
+  url: /publications
 - text: Resources
-  url: /pages/resources
+  url: /resources

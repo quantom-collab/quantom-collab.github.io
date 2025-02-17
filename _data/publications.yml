@@ -31,15 +31,15 @@ submitted:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : Characterization and Optimization of the Fitting of Quantum Correlation Functions
     authors:
-      - P. Chuang
+      - P.-Y. Chuang
       - N. Shah
       - P. Barry
       - I. Cloët
       - E. Constantinescu
       - N. Sato
       - W. Feng
-    journal: Proceedings of IEEE High-Performance Extreme Computing Virtual Conference
-    status : Under review
+    journal: Proceedings of IEEE High-Performance Extreme Computing 2024
+    status : Accepted
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : Kernel methods for evolution of generalized parton distributions
     authors:

@@ -1,0 +1,21 @@
+.highlight-card {
+  @extend .card;
+  @extend .bg-white;
+  @extend .text-dark;
+  @extend .h-100;
+}
+
+.highlight-card-body {
+  @extend .card-body;
+}
+
+.highlight-card-title {
+  @extend .card-title;
+  @extend .fs-5;
+  @extend .fw-bold;
+}
+
+.highlight-card-text {
+  @extend .card-text;
+  @extend .fs-6;
+}

@@ -1,0 +1,42 @@
+<section id="highlights" aria-labelledby="highlights-heading">
+  <div class="container">
+
+    <h2 id="highlights-heading" class="w-100 text-center px-3 mt-4 mb-2">
+      Highlights
+    </h2>
+
+    <hr class="border border-dark border-1">
+
+    <!-- different numbers of column per row at different window size -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 gap-0 row-gap-1">
+
+      {% for highlight in site.data.highlights %}
+
+      <!-- content of each column (for here, one card per column) -->
+      <div class="col">
+
+        <!-- one highlight card -->
+        <div class="highlight-card">
+
+          <!-- the image associated with the highlight -->
+          <img src="{{ site.url }}/{{ highlight.image }}" class="card-img-top" alt="Image">
+
+          <!-- the main body of this highlight card -->
+          <div class="highlight-card-body">
+
+            <!-- title of the highlight -->
+            <h5 class="highlight-card-title"> {{ highlight.title }} </h5>
+
+            <!-- content of the highlight -->
+            <p class="highlight-card-text">
+              {{ highlight.content | markdownify | remove: "<p>" | remove: "</p>" }}
+            </p>
+
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>

@@ -1,29 +1,26 @@
 <header>
   <!-- control the width -->
-  <div class="container">
+  <div class="container header">
 
-    <nav class="navbar navbar-expand-md bg-white mt-3 p-0">
-    <div class="row bg-white m-0 p-1">
+    <!-- the 1st row: logo and search button -->
+    <nav class="navbar-top">
 
       <!-- logo -->
-      <a
-        class="
-          navbar-brand col-5 col-sm-5 col-md-4 col-lg-3 col-xl-2 flex-shrink-1
-          g-2 p-0 me-auto
-        "
-        href="{{ site.url }}"
-      >
-        <img class="img-fluid" src="{{ site.url }}/assets/img/quantom_logo.png"/>
+      <a class="logo" href="{{ site.url }}">
+        <img class="img-fluid"
+          src="{{ site.url }}/assets/img/quantom_logo.png"
+        />
       </a>
 
-      <button
-        type="button" class="navbar-toggler btn-white col-2 p-1"
+      <!-- menu expanding button (hiddin in larger screens) -->
+      <button type="button" class="menu-btn"
         data-bs-toggle="collapse" data-bs-target="#navbarNav"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <button type="button" class="btn btn-white text-end col-2 p-1"
+      <!-- search button -->
+      <button type="button" class="search-btn"
         data-bs-toggle="modal" data-bs-target="#search-modal"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -39,14 +36,30 @@
           />
         </svg>
       </button>
-    </div>
+
+    <!-- end of header-navbar -->
     </nav>
 
-    <nav id="header" class="navbar navbar-expand-md mt-0 pt-0 pe-0 pt-md-3 pe-md-3">
-      <!-- navigation links -->
-      <div id="navbarNav" class="collapse navbar-collapse justify-content-end">
-        <ul class="navbar-nav align-items-center gap-3">
-          {% include navigation.html %}
+    <!-- the 1st row: the navigation menu -->
+    <nav id="header" class="navbar-btm">
+
+      <!-- holder of the menu -->
+      <div id="navbarNav" class="menu-holder">
+
+        <!-- menu as a list -->
+        <ul class="menu-list">
+
+          <!-- NOTE: currently doesn't support submenus -->
+          {% for link in site.data.navigation %}
+          <li class="menu-item-holder">
+            <a class="menu-item"
+              href="{{ site.baseurl }}{{ link.url }}"
+            >
+              {{ link.text }}
+            </a>
+          </li>
+          {% endfor %}
+
         </ul>
       </div>
     </nav>

@@ -1,9 +1,20 @@
 ---
 layout: default
 ---
-<main>
-  {% include slider.html %}
-  {% include mission.html %}
-  {% include highlights.html %}
-  {% include news.html %}
+<main class="landing">
+  <div class="container mt-2">
+    {% include slider.html %}
+  </div>
+
+  <div class="container mt-4">
+    {% include mission.html %}
+  </div>
+
+  <div class="container mt-4">
+    {% include highlights.html %}
+  </div>
+
+  <div class="container mt-4">
+    {% include news.html %}
+  </div>
 </main>

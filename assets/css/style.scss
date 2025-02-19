@@ -89,21 +89,6 @@
   --bs-btn-hover-border-color: transparent;
 }
 
-.landing-banner-title {
-  @extend .text-center;
-  font-size: clamp(1px, calc(0.75rem + 1.75vw), 46px);
-  color: $orange;
-  font-weight: 600;
-}
-
-.landing-banner-text {
-  @extend .text-light;
-  @extend .text-center;
-  @extend .d-none;
-  @extend .d-sm-block;
-  font-size: clamp(1px, calc(0.75rem + 1.3vw), 37px);
-}
-
 .profile-card {
   @extend .card;
   @extend .h-100;
@@ -211,5 +196,5 @@
   font-weight: normal;
 }
 
-@import "highlight";
 @import "header";
+@import "landing";

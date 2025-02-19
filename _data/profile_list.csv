@@ -1,7 +1,7 @@
 Identifier,Name,Affiliation,Role,Email,URL,Filename,Category
-i_cloet,Ian Cloët,Argonne National Laboratory,Lead Principal Investigator,icloet@anl.gov,https://www.anl.gov/profile/ian-c-cloet,,THY
-w_feng,Wu-chun Feng,Virginia Tech,Principal Investigator,wfeng@vt.edu,https://website.cs.vt.edu/people/faculty/wu-chun-feng.html,,CV
-j_qiu,Jianwei Qiu,Jefferson Lab,Principal Investigator,jqiu@jlab.org,https://www.jlab.org/theory/senior_staff/qiu,,THY
+i_cloet,Ian Cloët,Argonne National Laboratory,Lead Principal Investigator,icloet@anl.gov,https://www.anl.gov/profile/ian-c-cloet,Ian Cloet_0.jpg,THY
+w_feng,Wu-chun Feng,Virginia Tech,Principal Investigator,wfeng@vt.edu,https://website.cs.vt.edu/people/faculty/wu-chun-feng.html,wfeng.png,CV
+j_qiu,Jianwei Qiu,Jefferson Lab,Principal Investigator,jqiu@jlab.org,https://www.jlab.org/theory/senior_staff/qiu,JQiu.jpg,THY
 a_freese,Adam Freese,Jefferson Lab,Postdoctoral Fellow,afreese@jlab.org,https://www.jlab.org/about/ourpeople/freese-adam,adam_freese.jpg,THY
 a_attia,Ahmed Attia,Argonne National Laboratory,Computational Mathematician,aattia@anl.gov,https://www.anl.gov/profile/ahmed-m-attia,Ahmed_Attia.jpg,MAD
 a_dubey,Anshu Dubey,Argonne National Laboratory,Senior Computational Scientist / R&D Leader,adubey@anl.gov,https://www.anl.gov/profile/anshu-dubey,Anshu.png,CV
@@ -14,4 +14,5 @@ p_barry,Patrick Barry,Argonne National Laboratory,Postdoctoral Appointee,barry@a
 n_shah,Niteya Shah,Virginia Tech,PhD Student,niteya@vt.edu,https://www.linkedin.com/in/niteya-shah/,niteya.jpg,CV
 x_wu,Xingfu Wu,Argonne National Laboratory,Computer Scientist,xingfu.wu@anl.gov,https://www.anl.gov/profile/xingfu-wu,Xingfu.jpg,CV
 m_diefenthaler,Markus Diefenthaler,Jefferson Lab,Staff Scientist,mdiefent@jlab.org,,Markus Diefenthaler.jpg,EXP
-p_chuang,Pi-Yueh Chuang,Argonne National Laboratory,Postdoctoral Appointee,pchuang@anl.gov,https://www.anl.gov/profile/piyueh-chuang,,MAD
+p_chuang,Pi-Yueh Chuang,Argonne National Laboratory,Postdoctoral Appointee,pchuang@anl.gov,https://www.anl.gov/profile/piyueh-chuang,pychuang.png,MAD
+a_farhat,Abdullah Farhat,Jefferson Lab,Postdoctoral Fellow,afarhat@jlab.org,,,EXP

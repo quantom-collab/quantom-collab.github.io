@@ -75,33 +75,28 @@
   text-decoration: none;
 }
 
+.breadcrumb .breadcrumb-item a:hover {
+  color: #c4dbfa;
+  text-decoration: underline;
+}
+
 .btn {
   background-image: none;
   --bs-btn-box-shadow: none;
 }
 
-// our own code from here on (can be either SCSS or CSS)
+// loading our SCSS files (in the _sass folder)
+@import "header";
+@import "landing";
+@import "news";
+
+// our own global custom classes
 .btn-white {
   @extend .btn-light;
   --bs-btn-bg: #ffffff !important;  // override the parent's
   --bs-btn-border-color: transparent !important;  // override the parent's
   --bs-btn-hover-bg: #dfdfdf;
   --bs-btn-hover-border-color: transparent;
-}
-
-.landing-banner-title {
-  @extend .text-center;
-  font-size: clamp(1px, calc(0.75rem + 1.75vw), 46px);
-  color: $orange;
-  font-weight: 600;
-}
-
-.landing-banner-text {
-  @extend .text-light;
-  @extend .text-center;
-  @extend .d-none;
-  @extend .d-sm-block;
-  font-size: clamp(1px, calc(0.75rem + 1.3vw), 37px);
 }
 
 .profile-card {
@@ -138,4 +133,32 @@
 
 .profile-affiliation {
   font-size: 1rem;
+}
+
+.post-date {
+  @extend .bg-white;
+  @extend .text-secondary;
+  @extend .fw-medium;
+  @extend .mx-3;
+  @extend .mt-3;
+  @extend .mb-1;
+  @extend .p-0;
+}
+
+.post-title {
+  @extend .bg-white;
+  @extend .text-primary;
+  @extend .mx-3;
+  @extend .mt-1;
+  @extend .mb-3;
+  @extend .p-0;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.post-body {
+  @extend .m-3;
+  @extend .p-0;
+  font-size: 1rem;
+  font-weight: normal;
 }

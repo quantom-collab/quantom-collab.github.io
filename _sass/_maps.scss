@@ -7,13 +7,9 @@ $extra-display-font-sizes: (
 );
 
 $extra-font-sizes: (
-  7: 0.825rem
+  7: 0.9rem
 );
 
 // merge the extra font sizes with the existing font sizes
 $font-sizes: map-merge($font-sizes, $extra-font-sizes);
 $display-font-sizes: map-merge($display-font-sizes, $extra-display-font-sizes);
-
-// Color overrides
-$body-bg:    #ffffff;
-$body-color: #000000;

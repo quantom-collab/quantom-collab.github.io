@@ -34,6 +34,7 @@ collections:
   # folder _pages
   pages:
     output: true
+    permalink: /:name
 
 # default key-value pairs in the front matter for each category
 defaults:

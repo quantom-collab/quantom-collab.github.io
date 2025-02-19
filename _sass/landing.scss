@@ -1,0 +1,177 @@
+.landing {
+  .banner {
+    /* the landing.banner class' own properties */
+    @extend .card;
+    --bs-card-border-width: 0;
+    --bs-card-border-radius: 0;
+    --bs-card-inner-border-radius: 0;
+    border-radius: 0;
+
+    /* landing.banner.background */
+    .background {
+      @extend .card-img;
+    }
+
+    /* landing.banner.background */
+    .body {
+      @extend .card-img-overlay;
+      @extend .d-flex;
+      @extend .flex-column;
+      @extend .bg-dark;
+      @extend .bg-opacity-50;
+      @extend .text-light;
+      @extend .align-items-center;
+      @extend .align-content-center;
+      @extend .justify-content-center;
+      @extend .px-4
+    }
+
+    /* landing.banner.title */
+    .title {
+      @extend .text-center;
+      @extend .fw-bold;
+      @extend .d-none;
+      @extend .d-sm-block;
+      font-size: clamp(1px, calc(0.75rem + 1.75vw), 46px);
+    }
+
+    /* landing.banner.content */
+    .content {
+      @extend .text-center;
+      @extend .fw-medium;
+      font-size: clamp(1px, calc(1rem + 1.5vw), 46px);
+    }
+  }
+  
+  /* general setup for sections */
+  section {
+    .heading {
+      @extend .h3;
+      @extend .w-100;
+      @extend .m-0;
+      @extend .text-center;
+      @extend .text-dark;
+    }
+
+    .divider {
+      @extend .border;
+      @extend .border-dark;
+      @extend .border-1;
+      @extend .mx-0;
+      @extend .mt-2;
+      @extend .mb-0;
+    }
+
+    .body {
+      @extend .w-100;
+      @extend .m-0;
+      @extend .mt-2;
+      @extend .py-0;
+      @extend .px-3;
+      @extend .text-start;
+      @extend .text-wrap;
+      @extend .text-body;
+      @extend .fs-5;
+    }
+  }
+
+  /* landing.highlights */
+  .highlights {
+    @extend .row;
+    @extend .row-cols-1;
+    @extend .row-cols-sm-2;
+    @extend .row-cols-md-2;
+    @extend .row-cols-lg-3;
+    @extend .gap-0;
+    @extend .row-gap-3;
+    @extend .mt-3;
+
+    .block {
+      @extend .card;
+      @extend .h-100;
+      @extend .bg-white;
+      @extend .text-dark;
+      @extend .m-0;
+      @extend .p-0;
+      @extend .pb-2;
+    }
+
+    .headimg {
+      @extend .card-img-top;
+    }
+
+    .body {
+      @extend .card-body;
+    }
+
+    .heading {
+      @extend .card-title;
+      @extend .text-start;
+      @extend .text-body;
+      @extend .fs-6;
+      @extend .fw-bold;
+    }
+
+    .content {
+      @extend .card-text;
+      @extend .fs-7;
+      @extend .mt-2;
+    }
+  }
+
+  /* landing.news */
+  .news {
+    @extend .row;
+    @extend .row-cols-1;
+    @extend .gap-0;
+    @extend .row-gap-2;
+    @extend .mt-2;
+
+    .block {
+      @extend .card;
+      @extend .w-100;
+      @extend .h-100;
+      @extend .bg-white;
+      @extend .text-dark;
+      @extend .m-0;
+      @extend .p-1;
+      --bs-card-border-width: 0;
+      --bs-card-border-radius: 0;
+      --bs-card-inner-border-radius: 0;
+      border-radius: 0;
+    }
+
+    .date {
+      @extend .card-header;
+      @extend .bg-white;
+      @extend .fw-medium;
+      @extend .text-secondary;
+      @extend .text-start;
+      @extend .m-0;
+      @extend .p-0;
+    }
+
+    .heading {
+      @extend .card-title;
+      @extend .m-0;
+      @extend .mt-1;
+      @extend .p-0;
+      @extend .text-start;
+      @extend .bg-white;
+      @extend .text-primary;
+      @extend .fs-6;
+      @extend .fw-bold;
+      a {
+        @extend .link-underline;
+        @extend .link-underline-opacity-0;
+        @extend .link-underline-opacity-75-hover;
+      }
+    }
+
+    .content {
+      @extend .m-0;
+      @extend .p-0;
+      @extend .fs-6;
+    }
+  }
+}

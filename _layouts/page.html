@@ -35,7 +35,7 @@ layout: default
     >
 
         <h2 id="{{ page-title }}-heading">
-          {{ page.title | capitalize }}
+          {{ page.title }}
         </h2>
 
         <nav aria-label="breadcrumb">
@@ -55,7 +55,9 @@ layout: default
 
 <!-- main page content -->
 <main id="{{ page.title }}" aria-label="{{ page.title }}">
-  <div class="container p-3 my-3">
+
+  <!-- `page` class is to force the namespace of CSS class -->
+  <div class="container page">
 
       {{ content }}
 

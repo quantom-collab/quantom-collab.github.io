@@ -1,0 +1,77 @@
+.header {
+  .navbar-top {
+    @extend .navbar;
+    @extend .navbar-expand-md;
+    @extend .bg-white;
+    @extend .mt-5;
+    @extend .p-1;
+  }
+
+  .navbar-btm {
+    @extend .navbar;
+    @extend .navbar-expand-md;
+    @extend .mt-3;
+    @extend .mb-3;
+    @extend .pt-0;
+    @extend .pe-0;
+    @extend .pt-md-3;
+    @extend .pe-md-3;
+    @extend .pb-0;
+  }
+
+  .logo {
+    @extend .navbar-brand;
+    @extend .col-5;
+    @extend .col-sm-5;
+    @extend .col-md-4;
+    @extend .col-lg-3;
+    @extend .col-xl-2;
+    @extend .flex-shrink-1;
+    @extend .g-2;
+    @extend .p-0;
+    @extend .me-auto;
+  }
+
+  .menu-btn {
+    @extend .navbar-toggler;
+    @extend .btn-white;
+    @extend .col-2;
+    @extend .p-1;
+  }
+
+  .search-btn {
+    @extend .btn;
+    @extend .btn-white;
+    @extend .text-end;
+    @extend .col-2;
+    @extend .p-1;
+  }
+
+  .menu-holder {
+    @extend .collapse;
+    @extend .navbar-collapse;
+    @extend .justify-content-end;
+  }
+
+  .menu-list {
+    @extend .navbar-nav;
+    @extend .align-items-center;
+    @extend .gap-3;
+  }
+
+  .menu-item-holder {
+    @extend .nav-item;
+    @extend .dropdown;
+    @extend .p-0;
+    @extend .m-0;
+  }
+
+  .menu-item {
+    @extend .nav-link;
+    @extend .p-0;
+    @extend .m-0;
+    @extend .fs-6;
+    @extend .fw-medium;
+    @extend .text-body-emphasis;
+  }
+}

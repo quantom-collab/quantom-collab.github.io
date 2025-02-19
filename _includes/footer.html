@@ -1,29 +1,53 @@
 <footer>
-  <div class="container">
-    <a target="_blank" href="https://www.energy.gov/">
-      <img class="img-fluid" width="11%" src="{{ site.baseurl }}/assets/img/doe_seal.png"/>
+  <div class="container d-flex flex-wrap text-center align-items-center justify-content-center mt-5 px-5">
+    <a target="_blank" href="https://www.energy.gov/" class="col-3 col-sm-2 text-start">
+      <img class="img-fluid" src="{{ site.baseurl }}/assets/img/doe_seal.png" style="max-width: 75%;"/>
     </a>
-    <a target="_blank" href="https://www.anl.gov/">
-      <img class="img-fluid" width="28%" src="{{ site.baseurl }}/assets/img/argonne_logo.png"/>
+    <a target="_blank" href="https://www.anl.gov/" class="col-6 col-sm-3">
+      <img class="img-fluid" src="{{ site.baseurl }}/assets/img/argonne_logo.png"/>
     </a>
-    <a target="_blank" href="https://www.jlab.org/">
-      <img class="img-fluid" width="28%" src="{{ site.baseurl }}/assets/img/jlab_logo.png"/>
+    <a target="_blank" href="https://www.jlab.org/" class="col-6 col-sm-4">
+      <img class="img-fluid" src="{{ site.baseurl }}/assets/img/jlab_logo.png"/>
     </a>
-    <a target="_blank" href="https://www.vt.edu/">
-      <img class="img-fluid" width="28%" src="{{ site.baseurl }}/assets/img/vt_logo.png"/>
+    <a target="_blank" href="https://www.vt.edu/" class="col-6 col-sm-3">
+      <img class="img-fluid" src="{{ site.baseurl }}/assets/img/vt_logo.png"/>
     </a>
   </div>
-  <div class="container">
+  <div class="container d-flex flex-column bg-dark text-light text-center justify-content-center align-items-center p-1">
+    <div class="fs-6 my-2 text-start text-center">
+      <a class="link-light fw-medium" href="{{ site.url }}">
+        HOME
+      </a>
+      <span class="mx-1"> | </span>
+      <a class="icon-link icon-link-hover link-light fw-medium" href="mailto:icloet@anl.gov">
+        CONTACT US
+        <svg
+          xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          fill="currentColor" class="bi bi-envelope" aria-hidden="true"
+          viewBox="0 0 16 16"
+        >
+          <path d="
+            M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0
+            0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0
+            0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034
+            6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2
+            13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
+          />
+        </svg>
+        <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg>
+      </a>
+    </div>
     <div
-      class="fs-7 text-center text-light bg-dark p-3"
+      class="fs-6 my-2 text-start text-center"
     >
-      Copyright &copy; 2025, All Right Reserved
+      Copyright &copy; 2025,
       <a
         href="{{ site.baseurl }}"
         class="link-light"
       >
         QuantOm Collaboration
       </a>
+      All Right Reserved
     </div>
   </div>
 </footer>

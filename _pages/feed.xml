@@ -1,7 +1,14 @@
 ---
 layout: none
 permalink: /feed.xml
+hidden: true
 ---
+
+{%- assign all_posts = "" | split: ", " -%}
+{%- for collection in site.collections -%}
+  {%- assign all_posts = all_posts | concat: collection.docs -%}
+{%- endfor -%}
+{%- assign sorted_posts = all_posts | sort: "date" | reverse -%}
 
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -10,21 +17,22 @@ permalink: /feed.xml
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml" />
     <description>{{ site.description }}</description>
-    {% assign all_posts = site.posts | concat: site.pages | concat: site.news %}
-    {% assign sorted_posts = all_posts | sort: "date" | reverse %}
     {% for post in sorted_posts limit:20 %}
-      {% if post.id == "/feed" or post.id == "/404" %}
-        {% continue %}
-      {% endif %}
+      {%- unless post.hidden %}
+      {% assign content = post.excerpt | markdownify | strip_html -%}
+      {% assign content = content | strip_newlines | truncatewords: 50 -%}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid>{{ site.url }}{{ post.url }}</guid>
-        {% if post.date %}
-          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        {% endif %}
-        <description><![CDATA[{{ post.content | strip_html | truncatewords: 50 }}]]></description>
+        {%- if post.date %}
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        {% endif -%}
+        <description>
+          <![CDATA[{{ content }}]]>
+        </description>
       </item>
+      {% endunless -%}
     {% endfor %}
   </channel>
 </rss>

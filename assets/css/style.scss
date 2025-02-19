@@ -75,12 +75,22 @@
   text-decoration: none;
 }
 
+.breadcrumb .breadcrumb-item a:hover {
+  color: #c4dbfa;
+  text-decoration: underline;
+}
+
 .btn {
   background-image: none;
   --bs-btn-box-shadow: none;
 }
 
-// our own code from here on (can be either SCSS or CSS)
+// loading our SCSS files (in the _sass folder)
+@import "header";
+@import "landing";
+@import "news";
+
+// our own global custom classes
 .btn-white {
   @extend .btn-light;
   --bs-btn-bg: #ffffff !important;  // override the parent's
@@ -152,7 +162,3 @@
   font-size: 1rem;
   font-weight: normal;
 }
-
-@import "header";
-@import "landing";
-@import "news";

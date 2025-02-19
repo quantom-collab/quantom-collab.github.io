@@ -3,14 +3,15 @@
     @extend .navbar;
     @extend .navbar-expand-md;
     @extend .bg-white;
-    @extend .mt-3;
+    @extend .mt-5;
     @extend .p-1;
   }
 
   .navbar-btm {
     @extend .navbar;
     @extend .navbar-expand-md;
-    @extend .mt-0;
+    @extend .mt-3;
+    @extend .mb-3;
     @extend .pt-0;
     @extend .pe-0;
     @extend .pt-md-3;
@@ -69,7 +70,8 @@
     @extend .nav-link;
     @extend .p-0;
     @extend .m-0;
-    @extend .fs-5;
+    @extend .fs-6;
     @extend .fw-medium;
+    @extend .text-body-emphasis;
   }
 }

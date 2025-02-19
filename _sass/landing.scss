@@ -17,8 +17,9 @@
       @extend .card-img-overlay;
       @extend .d-flex;
       @extend .flex-column;
-      @extend .text-bg-dark;
+      @extend .bg-dark;
       @extend .bg-opacity-50;
+      @extend .text-light;
       @extend .align-items-center;
       @extend .align-content-center;
       @extend .justify-content-center;
@@ -38,7 +39,7 @@
     .content {
       @extend .text-center;
       @extend .fw-medium;
-      font-size: clamp(1px, calc(0.75rem + 1.3vw), 37px);
+      font-size: clamp(1px, calc(1rem + 1.5vw), 46px);
     }
   }
   
@@ -49,6 +50,7 @@
       @extend .w-100;
       @extend .m-0;
       @extend .text-center;
+      @extend .text-dark;
     }
 
     .divider {
@@ -68,6 +70,7 @@
       @extend .px-3;
       @extend .text-start;
       @extend .text-wrap;
+      @extend .text-body;
       @extend .fs-5;
     }
   }
@@ -81,7 +84,7 @@
     @extend .row-cols-lg-3;
     @extend .gap-0;
     @extend .row-gap-3;
-    @extend .mt-2;
+    @extend .mt-3;
 
     .block {
       @extend .card;
@@ -104,7 +107,8 @@
     .heading {
       @extend .card-title;
       @extend .text-start;
-      @extend .fs-5;
+      @extend .text-body;
+      @extend .fs-6;
       @extend .fw-bold;
     }
 

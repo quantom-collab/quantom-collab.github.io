@@ -1,24 +1,24 @@
-// only SCSS variables; standard CSS variables should not be here
+/* // only SCSS variables; standard CSS variables should not be here */
 
 // Color overrides
-$primary:    #ba5300;
-$secondary:  #0055aa;
-$success:    #ff0000;
-$info:       #33ee33;
-$warning:    #ff0000;
-$danger:     #ff0000;
-$light:      #ffeedd;
-$dark:       #331100;
+$primary:    rgb(0, 157, 188);
+/* $secondary:  rgb(156, 156, 156); */
+/* $success:    #ff0000; */
+/* $info:       #33ee33; */
+/* $warning:    #ff0000; */
+/* $danger:     #ff0000; */
+/* $light:      #ffeedd; */
+/* $dark:       rgb(26, 26, 26); */
 
 // Link overrides
-$link-decoration:          none;
-$link-hover-decoration:    underline;
-$link-color:               $primary;
-$link-hover-color:         $secondary;
-$navbar-light-color:       $primary;
-$navbar-light-hover-color: $secondary;
+/* $link-decoration:          none; */
+/* $link-hover-decoration:    underline; */
+/* $link-color:               $primary; */
+/* $link-hover-color:         $secondary; */
+/* $navbar-light-color:       $primary; */
+/* $navbar-light-hover-color: $secondary; */
 
-$enable-gradients: true;
-$enable-shadows:   true;
+/* $enable-gradients: true; */
+/* $enable-shadows:   true; */
 
-$gradient: linear-gradient(170deg, rgba($primary, 0.26), rgba($secondary, 0.11));
+/* $gradient: linear-gradient(170deg, rgba($primary, 0.26), rgba($secondary, 0.11)); */

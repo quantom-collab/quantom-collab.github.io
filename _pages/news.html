@@ -2,29 +2,30 @@
 title: News
 ---
 
-<!-- card grid layout: use one column for all window sizes -->
-<div class="row row-cols-1 gap-0 row-gap-3 m-0 px-1 mt-4 mb-2">
+<!-- card grid layout -->
+<div class="news">
 
   {% assign collections = site.news | sort: "date" | reverse %}
   {% for news in collections %}
 
   <!-- layout in one column: only one card -->
-  <div class="d-flex flex-row col g-0 m-0 p-0 justify-content-center">
+  <div class="col">
 
     <!-- layout within one card -->
-    <div class="news-card">
+    <div class="block">
 
       <!-- date in the header -->
-      <div class="news-card-date">{{ news.date | date: "%B %d, %Y" }}</div>
+      <div class="date">{{ news.date | date: "%B %d, %Y" }}</div>
 
       <!-- title -->
-      <div class="news-card-title">
+      <div class="heading">
         <a href="{{ news.url }}">{{ news.title }}</a>
       </div>
 
       <!-- excerpt -->
-      <div class="news-card-excerpt">
-        {{ news.content | markdownify | remove: "<p>" | remove: "</p>" | truncatewords: 100 }}
+      <div class="content">
+        {{ news.content | markdownify |
+            remove: "<p>" | remove: "</p>" | truncatewords: 100 }}
         <a href="{{ news.url }}"> &lt;open&gt; </a>
       </div>
 

@@ -114,4 +114,60 @@
       @extend .mt-2;
     }
   }
+
+  /* landing.news */
+  .news {
+    @extend .row;
+    @extend .row-cols-1;
+    @extend .gap-0;
+    @extend .row-gap-2;
+    @extend .mt-2;
+
+    .block {
+      @extend .card;
+      @extend .w-100;
+      @extend .h-100;
+      @extend .bg-white;
+      @extend .text-dark;
+      @extend .m-0;
+      @extend .p-1;
+      --bs-card-border-width: 0;
+      --bs-card-border-radius: 0;
+      --bs-card-inner-border-radius: 0;
+      border-radius: 0;
+    }
+
+    .date {
+      @extend .card-header;
+      @extend .bg-white;
+      @extend .fw-medium;
+      @extend .text-secondary;
+      @extend .text-start;
+      @extend .m-0;
+      @extend .p-0;
+    }
+
+    .heading {
+      @extend .card-title;
+      @extend .m-0;
+      @extend .mt-1;
+      @extend .p-0;
+      @extend .text-start;
+      @extend .bg-white;
+      @extend .text-primary;
+      @extend .fs-6;
+      @extend .fw-bold;
+      a {
+        @extend .link-underline;
+        @extend .link-underline-opacity-0;
+        @extend .link-underline-opacity-75-hover;
+      }
+    }
+
+    .content {
+      @extend .m-0;
+      @extend .p-0;
+      @extend .fs-6;
+    }
+  }
 }

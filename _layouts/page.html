@@ -55,7 +55,9 @@ layout: default
 
 <!-- main page content -->
 <main id="{{ page.title }}" aria-label="{{ page.title }}">
-  <div class="container">
+
+  <!-- `page` class is to force the namespace of CSS class -->
+  <div class="container page">
 
       {{ content }}
 

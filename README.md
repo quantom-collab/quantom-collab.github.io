@@ -1,7 +1,7 @@
 # quantum-collab.github.io
 
 Website data for
-[https://quantum-collab.github.io](https://quantum-collab.github.io).
+[https://quantom-collab.github.io](https://quantom-collab.github.io).
 
 ## Local Rendering/Development
 
@@ -65,6 +65,6 @@ These are notes about navigation of this site and where is what.
 
 * `assets/img/banner_page_1.jpg`: the banner image on the other pages
 
-* `assets/img/logo_quantom_collab.png`: the logo of QuantOm; currently unused
+* `assets/img/quantom_logo.png`: the logo of QuantOm
 
 * Each news item is associated to a news article in the folder of `_news`.

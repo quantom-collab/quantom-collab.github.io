@@ -39,7 +39,7 @@ submitted:
       - N. Sato
       - W. Feng
     journal: Proceedings of IEEE High-Performance Extreme Computing 2024
-    status : Accepted
+    status : Accepted for publication
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : Kernel methods for evolution of generalized parton distributions
     authors:
@@ -51,7 +51,7 @@ submitted:
       - N. Sato
       - M. Zaccheddu
     journal: Computer Physics Communications
-    status : Under review
+    status : Accepted for publication
     eprint : 2412.13450
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : 'Enhancing Interpretability in Generative Modeling: Statistically Disentangled Latent Spaces Guided by Generative Factors in Scientific Datasets'

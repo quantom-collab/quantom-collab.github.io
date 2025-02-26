@@ -1,0 +1,81 @@
+---
+title: Talks
+---
+
+<!-- Conference talks -->
+
+<span class="fs-2">Talks at conferences and workshops</span>
+
+<ul class="list-group">
+{% for talk in site.data.talks.conferencetalks %}
+  <li class="list-group-item">
+    <span class="fs-5">
+      {% include authorlist.html authors=talk.authors %}
+    </span>
+    <br/>
+    <span class="fs-5">
+      {% if talk.talkurl %}
+      <a target="_blank" href="{{ talk.talkurl }}"> <i>{{ talk.title }}</i> </a>
+      {% else %}
+      <i>{{ talk.title }}</i>
+      {% endif %}
+    </span>
+    <br/>
+    <span class="fs-6">
+      {{ talk.type }}:
+      {% if talk.confurl %}
+      <a target="_blank" href="{{ talk.confurl }}"> {{ talk.conference }} </a>
+      {% else %}
+      {{ talk.conference }}
+      {% endif %}
+    </span>
+    <br/>
+    <span class="fs-6">
+      {{ talk.institute }},
+      {{ talk.location }}
+    </span>
+    <br/>
+    <span class="fs-6">
+      {{ talk.date | date: "%B %-d, %Y" }}
+    </span>
+  </li>
+{% endfor %}
+</ul>
+
+<br/>
+
+
+<!-- Seminars and colloquiums -->
+
+<span class="fs-2">Colloquiums and seminars</span>
+
+
+<ul class="list-group">
+{% for talk in site.data.talks.seminars %}
+  <li class="list-group-item">
+    <span class="fs-5">
+      {% include authorlist.html authors=talk.authors %}
+    </span>
+    <br/>
+    <span class="fs-5">
+      {% if talk.talkurl %}
+      <a target="_blank" href="{{ talk.talkurl }}"> <i>{{ talk.title }}</i> </a>
+      {% else %}
+      <i>{{ talk.title }}</i>
+      {% endif %}
+    </span>
+    <br/>
+    <span class="fs-6">
+      {{ talk.type }}
+      at
+      {{ talk.institute }},
+      {{ talk.location }}
+    </span>
+    <br/>
+    <span class="fs-6">
+      {{ talk.date | date: "%B %-d, %Y" }}
+    </span>
+  </li>
+{% endfor %}
+</ul>
+

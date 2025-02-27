@@ -17,7 +17,7 @@ conferencetalks:
     institute  : Florida International University
     conference : 'Physics Opportunities at an Electron Ion Collider XI'
     type       : Conference
-    talkurl    : 'https://indico.jlab.org/event/871/contributions/15626/attachments/12175/19268/main.pdf'
+    talkurl    : 'https://indico.jlab.org/event/871/contributions/15626/attachments/12175/19360/main.pdf'
     confurl    : 'https://indico.jlab.org/event/871/'
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title      : 'tiktaalik: Finite Element Code for the Evolution of Generalized Parton Distributions'

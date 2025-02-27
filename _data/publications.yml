@@ -3,6 +3,22 @@
 # ==============================================================================
 
 published:
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : Kernel methods for evolution of generalized parton distributions
+    authors:
+      - A. Freese
+      - D. Adamiak
+      - I. Cloët
+      - W. Melnitchouk
+      - J.-W. Qiu
+      - N. Sato
+      - M. Zaccheddu
+    journal: Computer Physics Communications
+    doi    : 10.1016/j.cpc.2025.109552
+    volume : 311
+    pages  : 109552
+    year   : 2025
+    eprint : 2412.13450
   # No published works yet. Mock entry demonstrating expected data.
   #    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   #  - title  : Lorem ipsum odor amet
@@ -39,20 +55,7 @@ submitted:
       - N. Sato
       - W. Feng
     journal: Proceedings of IEEE High-Performance Extreme Computing 2024
-    status : Accepted
-    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  - title  : Kernel methods for evolution of generalized parton distributions
-    authors:
-      - A. Freese
-      - D. Adamiak
-      - I. Cloët
-      - W. Melnitchouk
-      - J.-W. Qiu
-      - N. Sato
-      - M. Zaccheddu
-    journal: Computer Physics Communications
-    status : Under review
-    eprint : 2412.13450
+    status : Accepted for publication
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : 'Enhancing Interpretability in Generative Modeling: Statistically Disentangled Latent Spaces Guided by Generative Factors in Scientific Datasets'
     authors:

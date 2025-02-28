@@ -4,6 +4,16 @@
 
 published:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : Quantum stresses in the hydrogen atom
+    authors:
+      - Adam Freese
+    journal: Physical Review D
+    doi    : 10.1103/PhysRevD.111.034047
+    volume : 111
+    pages  : '034047'
+    year   : 2025
+    eprint : 2412.09664
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : Kernel methods for evolution of generalized parton distributions
     authors:
       - A. Freese
@@ -19,31 +29,12 @@ published:
     pages  : 109552
     year   : 2025
     eprint : 2412.13450
-  # No published works yet. Mock entry demonstrating expected data.
-  #    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  #  - title  : Lorem ipsum odor amet
-  #    authors:
-  #      - C. A. Elit
-  #    eprint : 2411.01082
-  #    doi    : 10.2307/466856
-  #    journal: International Journal of Leo Magnis Vivamus
-  #    volume : 108
-  #    pages  : 9001
-  #    year   : 1776
-  #    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # ==============================================================================
 # Works being processed or reviewed
 # ==============================================================================
 
 submitted:
-    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  - title  : Quantum stresses in the hydrogen atom
-    authors:
-      - Adam Freese
-    journal: Physical Review D
-    status : Accepted for publication
-    eprint : 2412.09664
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : Characterization and Optimization of the Fitting of Quantum Correlation Functions
     authors:

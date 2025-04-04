@@ -29,12 +29,6 @@ published:
     pages  : 109552
     year   : 2025
     eprint : 2412.13450
-
-# ==============================================================================
-# Works being processed or reviewed
-# ==============================================================================
-
-submitted:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : Characterization and Optimization of the Fitting of Quantum Correlation Functions
     authors:
@@ -45,8 +39,16 @@ submitted:
       - E. Constantinescu
       - N. Sato
       - W. Feng
-    journal: Proceedings of IEEE High-Performance Extreme Computing 2024
-    status : Accepted for publication
+    journal: 2024 IEEE High Performance Extreme Computing Conference (HPEC)
+    doi    : 10.1109/HPEC62836.2024.10938443
+    pages  : 1-8
+    year   : 2024
+
+# ==============================================================================
+# Works being processed or reviewed
+# ==============================================================================
+
+submitted:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : 'Enhancing Interpretability in Generative Modeling: Statistically Disentangled Latent Spaces Guided by Generative Factors in Scientific Datasets'
     authors:

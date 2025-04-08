@@ -4,6 +4,28 @@
 
 conferencetalks:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title      : 'A realist perspective on quantum stress'
+    authors:
+      - Adam Freese
+    date       : 2025-04-02
+    location   : Trento, Italy
+    institute  : 'European Center for Theoretical Studies in Nuclear Physics and Related Areas'
+    conference : 'Mechanical properties of hadrons: Structure, dynamics, visualization'
+    type       : 'ECT* workshop'
+    talkurl    : 'https://indico.ectstar.eu/event/231/contributions/5413/attachments/3648/5247/Freese_ECT_April2.pdf'
+    confurl    : 'https://indico.ectstar.eu/event/231/overview'
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title      : 'Do gravitational form factors dscribe forces inside hadrons?'
+    authors:
+      - Adam Freese
+    date       : 2025-03-16
+    location   : Anaheim, CA
+    institute  : 'APS'
+    conference : 'The 11th workshop of the APS Topical Group on Hadron Physics'
+    type       : Workshop
+    talkurl    : 'https://indico.jlab.org/event/868/contributions/16068/attachments/12418/19737/main.pdf'
+    confurl    : 'https://indico.jlab.org/event/868/'
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title      : 'tiktaalik: Finite Element Code for the Evolution of Generalized Parton Distributions'
     authors:
       - Adam Freese
@@ -69,6 +91,17 @@ conferencetalks:
     conference : QCD at the Femtoscale in the Era of Big Data
     type       : INT Program
     talkurl    : 'https://www.int.washington.edu/sites/default/files/schedule_session_files/Freese_A.pdf'
+    confurl    : 'https://www.int.washington.edu/programs-and-workshops/24-2a'
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title      : 'Surrogate Model'
+    authors:
+      - Tareq Alghamdi
+    date       : 2024-06-28
+    location   : Seattle, WA
+    institute  : Institute for Nuclear Theory
+    conference : QCD at the Femtoscale in the Era of Big Data
+    type       : INT Program
+    talkurl    : 'https://www.int.washington.edu/sites/default/files/schedule_session_files/Alghamdi_T.pdf'
     confurl    : 'https://www.int.washington.edu/programs-and-workshops/24-2a'
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title      : 'Modeling Experimental Effects and Generative Methods'

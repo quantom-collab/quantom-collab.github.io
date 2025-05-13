@@ -4,6 +4,23 @@
 
 published:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : 'SAGIPS: a physics-inspired scalable asynchronous generative inverse problem solver'
+    authors:
+      - Daniel Lersch
+      - Malachi Schram
+      - Zhenyu Dai
+      - Kishansingh Rajput
+      - Nobuo Sato
+      - Xingfu Wu
+      - J. Taylor Childers
+      - Steven Goldenberg
+    journal: 'IOP Machine Learning: Science & Technology'
+    doi    : 10.1088/2632-2153/adc8fb
+    year   : 2025
+    volume : 6
+    pages  : '025017'
+    eprint : 2407.00051
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : Quantum stresses in the hydrogen atom
     authors:
       - Adam Freese
@@ -58,20 +75,6 @@ submitted:
       - Emil Constantinescu
     journal: Springer Machine Learning
     status : Under review
-    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  - title  : 'SAGIPS: A Scalable Asynchronous Generative Inverse Problem Solver'
-    authors:
-      - Daniel Lersch
-      - Malachi Schram
-      - Zhenyu Dai
-      - Kishansingh Rajput
-      - Xingfu Wu
-      - N. Sato
-      - J. Taylor Childers
-    journal: 'IOP Machine Learning: Science & Technology'
-    status : Under review
-    year   : 2025
-    eprint : 2407.00051
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # ==============================================================================

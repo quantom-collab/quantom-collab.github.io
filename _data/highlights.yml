@@ -39,12 +39,13 @@
 - title: Mathematics and Computer Science
   image: /assets/img/highlight_5.png
   content: |
-    Excepteur, laboris, laboris, excepteur, ut, incididunt.  Nostrud laboris
-    laboris, aute, in.  Adipiscing enim nostrud, reprehenderit, ut dolore
-    consequat.  Amet excepteur ad nostrud, consectetur adipisicing elit.
-    Exercitation veniam, fugiat in voluptate.  Excepteur dolor est amet,
-    consectetur adipisicing elit. Tempor aute, aute ipsum, do. Irure, mollit
-    nostrud laborum proident in. 
+    Our applied mathematics team is developing a next-generation, simulation-based 
+    inference methodology that allows accurate event-level data analysis. We develop 
+    scalable inverse-problem solvers powered by advanced scientific machine learning coupled 
+    with rigorous statistical methodology, advanced sampling, and fast surrogate models 
+    that accelerate inference by orders of magnitude. Together, these advances enable the 
+    rapid and high-fidelity extraction of QCFs, providing theory with sharper constraints 
+    and experiment and detector models with more realistic representations. 
 
 - title: Supercomputing and Visualization
   image: /assets/img/highlight_6.png

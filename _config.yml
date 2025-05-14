@@ -31,6 +31,8 @@ collections:
   # folder _news
   news:
     output: true
+  highlights:
+    output: true
   # folder _pages
   pages:
     output: true

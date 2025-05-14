@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<!-- banner image and page title -->
+<div class="container my-2">
+  <div
+    class="card"
+    style="
+      --bs-card-border-width: 0;
+      --bs-card-border-radius: 0;
+      --bs-card-inner-border-radius: 0;
+      border-radius: 0;
+    "
+  >
+
+    <!-- NOTE: the max-height can be removed once we have an image -->
+    <img
+      class="card-img"
+      src="{{ site.baseurl }}/assets/img/banner_page_1.jpg"
+      alt="{{ page.title }}-image"
+      style="max-height: 150px; background-size: cover;"
+    >
+
+    <div
+      class="
+        card-img-overlay
+        d-flex
+        bg-dark bg-opacity-25
+        text-white text-start
+        align-items-center align-content-center
+        justify-content-between
+        px-5
+      "
+    >
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="{{ site.url }}">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="{{ site.url }}/highlights">Highlights</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              {{ page.title }}
+            </li>
+          </ol>
+        </nav>
+
+    </div>
+  </div>
+</div>
+
+<!-- main page content -->
+<main id="{{ page.title }}" aria-label="{{ page.title }}">
+  <div class="container">
+
+    <div class="post-title">{{ page.title }}</div>
+    <div class="post-date"> {{ page.date | date: "%B %d, %Y" }} </div>
+
+    <div class="post-body">
+      {{ page.summary }}
+      <hr class="divider">
+      {{ content }}
+    </div>
+
+  </div>
+</main>

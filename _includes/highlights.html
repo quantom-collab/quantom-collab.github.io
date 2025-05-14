@@ -4,38 +4,44 @@
 
   <hr class="divider">
 
-  <!-- this is a card grid -->
+  <!-- card grid layout -->
   <div class="highlights">
 
-    {% for highlight in site.data.highlights %}
+    {% assign collections = site.highlights | sort: "date" | reverse %}
+    {% for highlight in collections limit:3 %}
 
-    <!-- content of each column (for here, one card per column) -->
+    <!-- layout in one column: only one card -->
     <div class="col">
 
-      <!-- one highlight card -->
+      <!-- layout within one card -->
       <div class="block">
 
         <!-- the image associated with the highlight -->
-        <img class="headimg" alt="Image"
-          src="{{ site.url }}/{{ highlight.image }}"
-        >
+        <a href="{{ highlight.url }}">
+          <img class="headimg" alt="Image" src="{{ site.url }}/{{ highlight.image }}" >
+        </a>
 
         <!-- the main body of this highlight card -->
         <div class="body">
 
-          <!-- title of the highlight -->
-          <div class="heading"> {{ highlight.title }} </div>
-
-          <!-- content of the highlight -->
-          <div class="content">
-            {{ highlight.content |
-                markdownify | remove: "<p>" | remove: "</p>" }}
-          </div>
-
+        <!-- title -->
+        <div class="heading">
+          <a href="{{ highlight.url }}">{{ highlight.title }}</a>
         </div>
+
+        <!-- date in the header -->
+        <div class="date">{{ highlight.date | date: "%B %d, %Y" }}</div>
+
+        <!-- excerpt -->
+        <div class="content">
+          {{ highlight.summary }}
+        </div>
+
+      </div>
       </div>
     </div>
     {% endfor %}
 
   </div>
+
 </section>

@@ -1,0 +1,55 @@
+- title: Cross-Disciplinary Collaboration
+  image: /assets/img/highlight_1.png
+  content: |
+    Accessing the hidden universe of quarks and gluons is a challenge requiring
+    expertise across multiple disciplines. Theorists provide rigorous
+    mathematical expressions that connect the footprints of this hidden universe
+    to observational data. Experimentalists enable realistic simulations of
+    complex particle reactions at world-class facilities such as Jefferson Lab
+    and the future Electron-Ion Collider. To reconstruct the details of this
+    hidden universe, data scientists orchestrate end-to-end, simulation-based
+    inference. Processing the full simulation pipeline and the large-scale data
+    from these experiments demands high-performance computing expertise.
+    Finally, data-visualization specialists render the reconstructed information
+    as tomographic images of the sub-femtometer-scale world.
+
+- title: Theory
+  image: /assets/img/highlight_2.png
+  content: |
+    Our theory team, consisting of researchers from Jefferson Lab and
+    Argonne National Laboratory, is pushing forward the frontiers of
+    quantum chromodynamics by developing and extending factorization frameworks.
+    These allow quantum correlation functions to be measured in an increasingly
+    large variety of experimental processes at Jefferson Lab and the future
+    Electron Ion Collider, and also allow radiative effects from electromagnetic
+    interactions to be incorporated into theoretical models.
+    Moreover, we are developing and deploying numerical implementations of
+    these frameworks using modern finite element methods,
+    allowing the frameworks to be employed in an auto-differentiable,
+    machine learning-friendly pipeline.
+
+- title: Experiment and Detector Simulation
+  image: /assets/img/highlight_3.png
+  content: |
+    TODO
+
+- title: Generative and Bayesian Machine Learning
+  image: /assets/img/highlight_4.png
+  content: |
+    TODO
+
+- title: Mathematics and Computer Science
+  image: /assets/img/highlight_5.png
+  content: |
+    Our applied mathematics team is developing a next-generation, simulation-based 
+    inference methodology that allows accurate event-level data analysis. We develop 
+    scalable inverse-problem solvers powered by advanced scientific machine learning coupled 
+    with rigorous statistical methodology, advanced sampling, and fast surrogate models 
+    that accelerate inference by orders of magnitude. Together, these advances enable the 
+    rapid and high-fidelity extraction of QCFs, providing theory with sharper constraints 
+    and experiment and detector models with more realistic representations. 
+
+- title: Supercomputing and Visualization
+  image: /assets/img/highlight_6.png
+  content: |
+    TODO

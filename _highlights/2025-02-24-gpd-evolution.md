@@ -9,7 +9,7 @@ summary: >-
   The code uses finite element methods to make the evolution auto-differentiable,
   allowing it to be used in AI/ML frameworks,
   such as those being developed by QuantOm.
-image: /assets/img/gpd-evo-img.png
+image: assets/img/gpd-evo-img.png
 ---
 ### Background
 

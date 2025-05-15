@@ -12,7 +12,7 @@ summary: >-
   in bound quantum systems.
   The hydrogen atom is used as a case study, and it is shown that the mechanical
   form factors allow the Coulomb force law to be mapped out.
-image: /assets/img/highlight-hydrogen.png
+image: assets/img/coulomb_pressure.png
 ---
 ### Background
 
@@ -48,7 +48,7 @@ from movement of constituents inside the system,
 and from forces acting on constituents.
 
 Next, the study uses guidance from the
-[pilot wave interpretation](https://inspirehep.net/literature/178539)
+[pilot wave interpretation](https://journals.aps.org/pr/abstract/10.1103/PhysRev.85.166)
 of quantum mechanics
 to help separate all the contributions to the momentum flux density.
 Contributions from the overall motion of the system
@@ -57,11 +57,18 @@ since they have nothing to do with the *internal* structure of the system.
 What remains is a mixture of internal motion and internal forces.
 The pilot wave interpretation allows a clean and exact separation between these.
 
+<img
+    src="{{ site.baseurl }}/assets/img/cbar.png"
+    alt="electrostatic stress"
+    width="37%" align="right"
+    style="margin: 12px;"
+/>
+
 The ground state of the hydrogen atom is studied as a paradigmatic example
 of a quantum bound state.
 For this state specifically, it is found that the internal momentum flux density
 is due entirely to internal stresses—specifically,
-tension in the static electric field,
+pressure and tension in the static electric field,
 and compressive pressure exerted by the bound state wave function
 on the electron and proton.
 
@@ -76,9 +83,17 @@ in quantum chromodynamics from future empirical extractions of the cbar form fac
 
 ### Impacts
 
-- Shows proton pressure measurements at JLab are interpreted correctly.
-- Demonstrates interdisciplinary connection between hadron physics and quantum foundations.
-- Finds that the cbar form factor can be used to empirically map force laws, paving the way to measure QCD forces.
+The biggest impact of this study is that it validates the pressure interpretation
+commonly attached to mechanical form factors.
+Although the hydrogen atom is a much simpler system than the proton—the latter being
+made of innumerably many quarks and gluons—such complications make the concept of
+pressure *more* applicable rather than less.
+What this study shows is that even a system consisting of merely two particles
+already has continuum-like behavior,
+because the wave function acts similarly to a continuous medium.
+
+This study also shows that there is fertile ground in interdisciplinary research
+applying insights from foundations of quantum mechanics to open questions in hadron physics.
 
 ### Contact
 

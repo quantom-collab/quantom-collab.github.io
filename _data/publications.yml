@@ -67,6 +67,13 @@ published:
 
 submitted:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : 'Mechanical form factors and densities of non-relativistic fermions'
+    authors:
+      - Adam Freese
+    status : Preprint posted
+    journal: arXiv [hep-ph]
+    eprint : 2505.06135
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : 'Enhancing Interpretability in Generative Modeling: Statistically Disentangled Latent Spaces Guided by Generative Factors in Scientific Datasets'
     authors:
       - Arkaprabha Ganguli

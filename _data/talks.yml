@@ -4,6 +4,33 @@
 
 conferencetalks:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title      : 'Fintie element code for QED+QCD factorization'
+    authors:
+      - Adam Freese
+    date       : 2025-06-03
+    location   : Seattle, WA
+    institute  : Institute for Nuclear Theory
+    conference : Bridging Theory and Experiment at the Electron-Ion Collider
+    type       : 'BNL-INT Joint Workshop'
+    talkurl    : 'https://www.int.washington.edu/sites/default/files/schedule_session_files/Freese_A_2.pdf'
+    confurl    : 'https://www.int.washington.edu/index.php/programs-and-workshops/25-93w'
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title      : 'titaalik: code for ultrafast GPD evolution'
+    authors:
+      - Adam Freese
+      - Daniel Adamiak
+      - Ian Cloët
+      - Jianwei Qiu
+      - Nobuo Sato
+      - Marco Zaccheddu
+    date       : 2025-05-22
+    location   : 'Newport News, VA'
+    institute  : 'Jefferson Lab'
+    conference : 'QCD Evolution 2025'
+    type       : Workshop
+    talkurl    : 'https://indico.jlab.org/event/901/contributions/16386/attachments/12652/20223/Freese_2025.05.22_qcd_evolution.pdf'
+    confurl    : 'https://indico.jlab.org/event/901/'
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title      : 'A realist perspective on quantum stress'
     authors:
       - Adam Freese

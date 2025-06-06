@@ -45,7 +45,7 @@ published:
     volume : 311
     pages  : 109552
     year   : 2025
-    eprint : 2412.13450
+    eprint : '2412.13450'
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : Characterization and Optimization of the Fitting of Quantum Correlation Functions
     authors:
@@ -66,6 +66,13 @@ published:
 # ==============================================================================
 
 submitted:
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : "Reflections on Noether's second theorem and the energy-momentum tensor"
+    authors:
+      - Adam Freese
+    status : Preprint posted
+    journal: arXiv [hep-ph]
+    eprint : '2506.04510'
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : 'Mechanical form factors and densities of non-relativistic fermions'
     authors:

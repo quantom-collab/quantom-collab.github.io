@@ -50,6 +50,15 @@
     and experiment and detector models with more realistic representations. 
 
 - title: Supercomputing and Visualization
-  image: /assets/img/highlight_6.png
+  image: /assets/img/supercomputing-vis.png
   content: |
-    TODO
+    Our supercomputing and visualization team is developing a scalable
+    distributed learning framework, along with associated libraries and tools,
+    to overcome the computational challenges of performing quark-gluon
+    correlation function (QCF) inference, which, in turn, enables the femtoscale
+    imaging of nuclei on exascale systems. As such, the team interfaces with
+    applied mathematicians and AI researchers to map, optimize, or refactor the
+    algorithms within the aforementioned framework, libraries, and tools for high
+    performance on exascale systems, including a comprehensive visualization
+    framework or library to support real-time, human-in-the-loop decision-making
+    in machine-learning workflows, focusing on QCFs and their uncertainties.

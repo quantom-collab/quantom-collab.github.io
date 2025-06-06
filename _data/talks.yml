@@ -4,7 +4,7 @@
 
 conferencetalks:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  - title      : 'Fintie element code for QED+QCD factorization'
+  - title      : 'Finite element code for QED+QCD factorization'
     authors:
       - Adam Freese
     date       : 2025-06-03

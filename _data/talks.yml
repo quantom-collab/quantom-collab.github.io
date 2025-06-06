@@ -42,7 +42,7 @@ conferencetalks:
     talkurl    : 'https://indico.ectstar.eu/event/231/contributions/5413/attachments/3648/5247/Freese_ECT_April2.pdf'
     confurl    : 'https://indico.ectstar.eu/event/231/overview'
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  - title      : 'Do gravitational form factors dscribe forces inside hadrons?'
+  - title      : 'Do gravitational form factors describe forces inside hadrons?'
     authors:
       - Adam Freese
     date       : 2025-03-16

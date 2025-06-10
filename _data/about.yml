@@ -33,10 +33,15 @@
   content: |
     TODO
 
-- title: Generative and Bayesian Machine Learning
+- title: Generative AI and Bayesian Machine Learning
   image: /assets/img/highlight_4.png
   content: |
-    TODO
+    Generative AI is a key element in this project. One of the most prominent examples for generative AI is the 
+    Generative Adverserial Network (GAN) which is currently used as an inverse problem solver. 
+    The GAN consists of two pars: A generator and a discrimiantor. In the scope of our project, the 
+    generator predicts solutions to the inverse problem. These solutions are then compared via the discriminator
+    against the observations made in nuclear physics experiments. First tests with proxy applications demonstrated
+    that the GAN is capable of solving inverse problems. 
 
 - title: Mathematics and Computer Science
   image: /assets/img/highlight_5-MAD.png

@@ -41,7 +41,7 @@
     The GAN consists of two pars: A generator and a discrimiantor. In the scope of our project, the 
     generator predicts solutions to the inverse problem. These solutions are then compared via the discriminator
     against the observations made in nuclear physics experiments. First tests with proxy applications demonstrated
-    that the GAN is capable of solving inverse problems. 
+    that the GAN is capable of solving inverse problems. We will also explore alternatives to the GAN, such as diffusion models. 
 
 - title: Mathematics and Computer Science
   image: /assets/img/highlight_5-MAD.png

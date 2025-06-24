@@ -31,6 +31,11 @@
 - title: Experiment and Detector Simulation
   image: /assets/img/experiment.jpg
   content: |
+    TODO
+
+- title: Generative and Bayesian Machine Learning
+  image: /assets/img/highlight_4.png
+  content: |
     Our experimental working group, including researchers from Jefferson Lab,
     is developing a novel, simulation-based inference method in a conceptual
     Bayesian framework designed for Generative Adversarial Networks (GANs).
@@ -43,11 +48,6 @@
     These methods provide high-fidelity and expressive extraction of
     Quantum Correlation Functions that can be seamlessly incorporated into
     our event-level framework for effective representation of physics experiments.
-
-- title: Generative and Bayesian Machine Learning
-  image: /assets/img/highlight_4.png
-  content: |
-    TODO
 
 - title: Mathematics and Computer Science
   image: /assets/img/highlight_5-MAD.png

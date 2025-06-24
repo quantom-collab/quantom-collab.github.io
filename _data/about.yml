@@ -29,9 +29,20 @@
     machine learning-friendly pipeline.
 
 - title: Experiment and Detector Simulation
-  image: /assets/img/highlight_3.png
+  image: /assets/img/experiment.jpg
   content: |
-    TODO
+    Our experimental working group, including researchers from Jefferson Lab,
+    is developing a novel, simulation-based inference method in a conceptual
+    Bayesian framework designed for Generative Adversarial Networks (GANs).
+    We develop new techniques to solve ill-posed inverse problems powered by
+    advanced scientific computing and machine learning methods.
+    The conceptual Bayesian GAN framework allows for accessible quantification
+    of statistical uncertainties.
+    The accurate estimation of statistical uncertainties is necessary
+    to reveal systematic effects and bias.
+    These methods provide high-fidelity and expressive extraction of
+    Quantum Correlation Functions that can be seamlessly incorporated into
+    our event-level framework for effective representation of physics experiments.
 
 - title: Generative and Bayesian Machine Learning
   image: /assets/img/highlight_4.png

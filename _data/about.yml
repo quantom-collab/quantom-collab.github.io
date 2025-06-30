@@ -31,7 +31,17 @@
 - title: Experiment and Detector Simulation
   image: /assets/img/experiment.jpg
   content: |
-    TODO
+    The Experimental Working Group, led by Jefferson Lab, is developing
+    a new folding approach that bridges theoretical calculations
+    and experimental measurements. This approach enables the joint
+    theoretical-experimental workflow of the QuantOm collaboration.
+    Using modern machine learning techniques, including generative AI,
+    the team is modeling how theoretical predictions would appear
+    in real-world experiments. These state-of-the-art models help ensure
+    that comparisons between theory and data are accurate, scalable, and efficient.
+    The folding method also enables real-time data analysis and,
+    when combined with streaming readout, is expected to improve precision
+    and reduce background in next-generation measurements.
 
 - title: Generative and Bayesian Machine Learning
   image: /assets/img/highlight_4.png

@@ -4,6 +4,20 @@
 
 published:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : 'Enhancing interpretability in generative modeling: statistically disentangled latent spaces guided by generative factors in scientific datasets'
+    authors:
+      - Arkaprabha Ganguli
+      - Nesar Ramachandra
+      - Julie Bessac
+      - Emil Constantinescu
+    journal: Springer Machine Learning
+    doi: 10.1007/s10994-025-06816-y
+    year: 2025
+    volume: 114
+    issue: 9
+    pages: 197
+    eprint: 2507.00298
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : 'SAGIPS: a physics-inspired scalable asynchronous generative inverse problem solver'
     authors:
       - Daniel Lersch
@@ -81,14 +95,14 @@ submitted:
     journal: arXiv [hep-ph]
     eprint : 2505.06135
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  - title  : 'Enhancing Interpretability in Generative Modeling: Statistically Disentangled Latent Spaces Guided by Generative Factors in Scientific Datasets'
+  - title  : 'Distributional Sensitivity Analysis: Enabling Differentiability in Sample-Based Inference'
     authors:
-      - Arkaprabha Ganguli
-      - Nesar Ramachandra
-      - Julie Bessac
+      - Pi-Yueh Chuang
+      - Ahmed Attia
       - Emil Constantinescu
-    journal: Springer Machine Learning
     status : Under review
+    journal: Inverse Problems
+    eprint : 2508.09347
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # ==============================================================================

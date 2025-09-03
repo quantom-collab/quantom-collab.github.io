@@ -4,6 +4,16 @@
 
 published:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : 'Mechanical form factors and densities of non-relativistic fermions'
+    authors:
+      - Adam Freese
+    journal: Physical Review D
+    doi    : 10.1103/k3hd-3lqv
+    volume : 112
+    pages  : '034037'
+    year   : 2025
+    eprint : 2505.06135
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : 'Enhancing interpretability in generative modeling: statistically disentangled latent spaces guided by generative factors in scientific datasets'
     authors:
       - Arkaprabha Ganguli
@@ -87,13 +97,6 @@ submitted:
     status : Preprint posted
     journal: arXiv [hep-ph]
     eprint : '2506.04510'
-    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  - title  : 'Mechanical form factors and densities of non-relativistic fermions'
-    authors:
-      - Adam Freese
-    status : Preprint posted
-    journal: arXiv [hep-ph]
-    eprint : 2505.06135
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : 'Distributional Sensitivity Analysis: Enabling Differentiability in Sample-Based Inference'
     authors:

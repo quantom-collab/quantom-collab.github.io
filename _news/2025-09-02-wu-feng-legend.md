@@ -10,5 +10,5 @@ has recently been named one of 35 HPC Legends of 2025 by
 As a collaboration, we offer him our sincere congratulations!
 
 See
-[the artile on The HPC Wire](https://www.hpcwire.com/35-hpc-legends-wu-feng/)
+[the article on The HPC Wire](https://www.hpcwire.com/35-hpc-legends-wu-feng/)
 for more information.

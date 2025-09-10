@@ -102,3 +102,7 @@ Adam Freese (<afreese@jlab.org>)
 ### Reference
 
 [Physical Review D 111 (2025) 034047](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.034047)
+
+### Further reading
+
+[Quantum calculations provide a sharper image of subatomic stress](https://phys.org/news/2025-09-quantum-sharper-image-subatomic-stress.html): news article about this work, by Chris Patrick

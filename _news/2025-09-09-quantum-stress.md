@@ -11,4 +11,3 @@ See our
 or
 [the publication in Physical Review D](https://doi.org/10.1103/PhysRevD.111.034047)
 for additional information.
-

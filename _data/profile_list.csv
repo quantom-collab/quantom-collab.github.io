@@ -2,7 +2,7 @@ Identifier,Name,Affiliation,Role,Email,URL,Filename,Category
 i_cloet,Ian Cloët,Argonne National Laboratory,Lead Principal Investigator,icloet@anl.gov,https://www.anl.gov/profile/ian-c-cloet,Ian Cloet_0.jpg,THY
 w_feng,Wu-chun Feng,Virginia Tech,Principal Investigator,wfeng@vt.edu,https://website.cs.vt.edu/people/faculty/wu-chun-feng.html,wfeng.png,CV
 j_qiu,Jianwei Qiu,Jefferson Lab,Principal Investigator,jqiu@jlab.org,https://www.jlab.org/theory/senior_staff/qiu,JQiu.jpg,THY
-a_freese,Adam Freese,Jefferson Lab,Postdoctoral Fellow,afreese@jlab.org,https://www.jlab.org/about/ourpeople/freese-adam,adam_freese.jpg,THY
+a_freese,Adam Freese,Center for Nuclear Femtography,Postdoctoral Researcher,afreese@jlab.org,,adam_freese.jpg,THY
 a_attia,Ahmed Attia,Argonne National Laboratory,Computational Mathematician,aattia@anl.gov,https://www.anl.gov/profile/ahmed-m-attia,Ahmed_Attia.jpg,MAD
 a_dubey,Anshu Dubey,Argonne National Laboratory,Senior Computational Scientist / R&D Leader,adubey@anl.gov,https://www.anl.gov/profile/anshu-dubey,Anshu.png,CV
 a_ganguli,Arkaprabha Ganguli,Argonne National Laboratory,Postdoctoral Appointee,aganguli@anl.gov,https://www.anl.gov/profile/arkaprabha-ganguli,Arkaprabha_Ganguli.jpg,MAD
@@ -16,3 +16,7 @@ x_wu,Xingfu Wu,Argonne National Laboratory,Computer Scientist,xingfu.wu@anl.gov,
 m_diefenthaler,Markus Diefenthaler,Jefferson Lab,Staff Scientist,mdiefent@jlab.org,,Markus Diefenthaler.jpg,EXP
 p_chuang,Pi-Yueh Chuang,Argonne National Laboratory,Postdoctoral Appointee,pchuang@anl.gov,https://www.anl.gov/profile/piyueh-chuang,pychuang.png,MAD
 a_farhat,Abdullah Farhat,Jefferson Lab,Postdoctoral Fellow,afarhat@jlab.org,,,EXP
+c_cocuzza,Christina Cocuzza,William & Mary,Postdoctoral Research Associate,cjcocuzza@wm.edu,,christina_cocuzza.png,THY
+m_abdelnaby,Mohamed Abdelnaby,Virginia Tech,PhD Student,,,m_abdelnaby.jpg,CV
+r_rabhu,Ritvik Prabhu,Virginia Tech,PhD Student,,,prabhu.jpg,CV
+p_sathre,Paul Sathre,Virginia Tech,Research Programmer,,,paul_sathre.jpg,CV

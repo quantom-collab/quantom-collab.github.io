@@ -4,6 +4,32 @@
 
 published:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title: On the Landscape of Scientific Computing Libraries in Python
+    authors:
+      - N. Shah
+      - P. Chuang
+      - P. Sathre
+      - W. Feng
+    journal: Proceedings of IEEE High-Performance Extreme Computing (HPEC)
+    doi: 10.1109/HPEC67600.2025.11196385
+    year: 2025
+    pages: 1-9
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title: Characterization and Optimization of the Fitting of Quantum Correlation Functions
+    authors:
+      - P. Chuang
+      - N. Shah
+      - P. Barry
+      - I. Cloët
+      - E. Constantinescu
+      - N. Sato
+      - J. Qiu
+      - W. Feng
+    journal: Proceedings of IEEE High-Performance Extreme Computing (HPEC)
+    doi: 10.1109/HPEC62836.2024.10938443
+    year: 2025
+    pages: 1-8
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title  : 'Mechanical form factors and densities of non-relativistic fermions'
     authors:
       - Adam Freese
@@ -80,7 +106,7 @@ published:
       - E. Constantinescu
       - N. Sato
       - W. Feng
-    journal: 2024 IEEE High Performance Extreme Computing Conference (HPEC)
+    journal: IEEE High Performance Extreme Computing Conference (HPEC)
     doi    : 10.1109/HPEC62836.2024.10938443
     pages  : 1-8
     year   : 2024

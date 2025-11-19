@@ -4,6 +4,26 @@
 
 conferencetalks:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title      : "Towards an event-level analysis in hadronic physics using generative AI-based surrogates"
+    authors:
+      - Yaohang Li
+    date       : 2025-11-04
+    location   : Athens, Greece
+    conference : '37th International Conference on Tools with Artificial Intelligence'
+    type       : Conference
+    confurl    : 'https://easyconferences.eu/ictai2025/'
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title      : "Differentiable event-level physics analysis"
+    authors:
+      - Nobuo Sato
+    date       : 2025-10-07
+    location   : Messina, Italy
+    institute  : Università di Messina
+    conference : Digital Twins for Nuclear and Particle Physics
+    type       : Workshop
+    talkurl    : 'https://docs.google.com/presentation/d/1qYvCfttSpEPTi3R1rYzzSJINIhAGbSg4bo3G9aV-Cqg'
+    confurl    : 'https://agenda.infn.it/event/43958/'
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title      : 'Finite element code for QED+QCD factorization'
     authors:
       - Adam Freese

@@ -4,10 +4,21 @@
 
 published:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - title  : 'Distributional Sensitivity Analysis: Enabling Differentiability in Sample-Based Inference'
+    authors:
+      - P.-Y. Chuang
+      - A. Attia
+      - E. Constantinescu
+    journal: Computer Physics Communications
+    doi: 10.1016/j.cpc.2026.110363
+    year: 2026
+    volume: 329
+    eprint : 2508.09347
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title: On the Landscape of Scientific Computing Libraries in Python
     authors:
       - N. Shah
-      - P. Chuang
+      - P.-Y. Chuang
       - P. Sathre
       - W. Feng
     journal: Proceedings of IEEE High-Performance Extreme Computing (HPEC)
@@ -17,7 +28,7 @@ published:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   - title: Characterization and Optimization of the Fitting of Quantum Correlation Functions
     authors:
-      - P. Chuang
+      - P.-Y. Chuang
       - N. Shah
       - P. Barry
       - I. Cloët
@@ -123,15 +134,6 @@ submitted:
     status : Preprint posted
     journal: arXiv [hep-ph]
     eprint : '2506.04510'
-    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  - title  : 'Distributional Sensitivity Analysis: Enabling Differentiability in Sample-Based Inference'
-    authors:
-      - Pi-Yueh Chuang
-      - Ahmed Attia
-      - Emil Constantinescu
-    status : Under review
-    journal: Inverse Problems
-    eprint : 2508.09347
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # ==============================================================================
